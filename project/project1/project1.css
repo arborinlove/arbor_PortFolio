@@ -26,14 +26,14 @@ html {
 
 /* 공통된 값 */
 article {
-  padding: 40px;
+  padding: 30px;
 }
 
 .sum_txt h2 {
   text-align: center;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 /***** header *****/
@@ -75,6 +75,7 @@ header .mt-menu .header_glass__icon img {
 }
 .main .main_txt h3 {
   font-size: 28px;
+  font-weight: 500;
 }
 .main .main_txt p {
   line-height: 3;
@@ -86,17 +87,24 @@ header .mt-menu .header_glass__icon img {
   display: none;
 }
 .sum_suggest_mt {
-  margin-top: 620px;
+  margin-top: 570px;
+  text-align: center;
 }
 .sum_suggest_mt .sum_suggest__img {
-  width: 100%;
+  background-color: #eee;
+  height: 400px;
+}
+.sum_suggest_mt .sum_suggest__img img {
+  width: 280px;
+  height: 340px;
 }
 .sum_suggest_mt .sum_suggest__txt_share {
+  margin-top: 20px;
   text-align: center;
   line-height: 1.5;
 }
 .sum_suggest_mt .sum_suggest__txt_share h2 {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 600;
 }
 .sum_suggest_mt .sum_suggest__txt_share p {
@@ -111,18 +119,18 @@ header .mt-menu .header_glass__icon img {
 }
 .best_seller_txt {
   position: absolute;
-  top: 1630px;
-  left: 60px;
+  top: 1430px;
+  left: 64px;
 }
 .best_seller_txt h2 {
   font-size: 24px;
   font-weight: 600;
 }
 .best_seller_txt p {
-  margin: 14px 0;
+  margin: 16px 0;
 }
 .best_seller_txt a {
-  font-size: 14px;
+  /* font-size: 16px; */
   border: 1px solid #222;
   padding: 5px 10px;
   transition: 0.4s;
@@ -136,18 +144,63 @@ header .mt-menu .header_glass__icon img {
 .sum_season__pc {
   display: none;
 }
-.sum_season__mt {
+.sum_season__mt .sum_season__suggest___timetxt {
+  text-align: center;
+  margin-top: 16px;
+}
+.sum_season__mt .sum_season__suggest___timetxt h2 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.8;
 }
 .sum_season__mt .sum_season__suggest___time-energy {
   display: flex;
+  text-align: center;
+  margin-top: 20px;
+  height: 340px;
+}
+.sum_season__mt
+  .sum_season__suggest___time-energy
+  .sum_season__suggest___txt_share
+  h2 {
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.sum_season__mt
+  .sum_season__suggest___time-energy
+  .sum_season__suggest___txt_share
+  h3 {
+  color: #d1d1d1;
+}
+.sum_season__mt
+  .sum_season__suggest___time-energy
+  .sum_season__suggest___txt_share
+  p {
+  margin-top: 18px;
+  font-weight: 600;
+}
+.sum_season__mt .sum_season__suggest___time-energy_1 {
+  background-color: #eee;
+  margin-right: 10px;
+}
+.sum_season__mt .sum_season__suggest___time-energy_1 img {
+  width: 206.5px;
+}
+.sum_season__mt .sum_season__suggest___time-energy_2 {
+  background-color: #eee;
+}
+.sum_season__mt .sum_season__suggest___time-energy_2 img {
+  width: 206.5px;
 }
 /***** media *****/
 .media_img__pc {
   display: none;
 }
-.media_mt .media_img {
+.media_mt .media_img img {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 .media_mt .media_txt_share {
   text-align: center;
@@ -168,7 +221,9 @@ header .mt-menu .header_glass__icon img {
 }
 
 /***** with sum 37˚ *****/
-
+.sum_slide img {
+  display: grid;
+}
 /***** footer *****/
 footer {
 }
