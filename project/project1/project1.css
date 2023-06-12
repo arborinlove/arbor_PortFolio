@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+@import url(./common.css);
+
+:root {
+  --main-color: #222;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.upTo {
+  position: fixed;
+  right: 0;
+  bottom: 75px;
+  background: url(./images/arrow_upward.svg) rgba(0, 0, 0, 0.7) no-repeat 50% /
+    80%;
+  width: 40px;
+  height: 40px;
+  text-indent: -999px;
+  overflow: hidden;
+  opacity: 0.5;
+  z-index: 99;
+}
+
+/* 공통된 값 */
+article {
+  padding: 40px;
+}
+
+.sum_txt h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+/***** header *****/
+header {
+  position: relative;
+}
+header .pc-menu {
+  display: none;
+}
+header .mt-menu {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 9999;
+}
+header .mt-menu .header_menu__icon svg {
+  width: 24px;
+  height: 24px;
+}
+header .mt-menu .header_glass__icon img {
+  width: 20px;
+  height: 20px;
+}
+
+/***** main *****/
+.main {
+}
+.main .main_background img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.main .main_txt {
+  position: relative;
+  left: 20px;
+  top: 380px;
+}
+.main .main_txt h3 {
+  font-size: 28px;
+}
+.main .main_txt p {
+  line-height: 3;
+}
+
+/***** content *****/
+/***** 숨 37˚ 추천 *****/
+.sum_suggest_pc {
+  display: none;
+}
+.sum_suggest_mt {
+  margin-top: 620px;
+}
+.sum_suggest_mt .sum_suggest__img {
+  width: 100%;
+}
+.sum_suggest_mt .sum_suggest__txt_share {
+  text-align: center;
+  line-height: 1.5;
+}
+.sum_suggest_mt .sum_suggest__txt_share h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.sum_suggest_mt .sum_suggest__txt_share p {
+  margin-top: 12px;
+}
+/***** youtube *****/
+.youtube {
+  display: none;
+}
+.best_seller {
+  position: relative;
+}
+.best_seller_txt {
+  position: absolute;
+  top: 1630px;
+  left: 60px;
+}
+.best_seller_txt h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.best_seller_txt p {
+  margin: 14px 0;
+}
+.best_seller_txt a {
+  font-size: 14px;
+  border: 1px solid #222;
+  padding: 5px 10px;
+  transition: 0.4s;
+}
+.best_seller_txt a:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+/***** 숨 37˚ 시즌 추천 *****/
+.sum_season__pc {
+  display: none;
+}
+.sum_season__mt {
+}
+.sum_season__mt .sum_season__suggest___time-energy {
+  display: flex;
+}
+/***** media *****/
+.media_img__pc {
+  display: none;
+}
+.media_mt .media_img {
+  width: 100%;
+  margin-top: 20px;
+}
+.media_mt .media_txt_share {
+  text-align: center;
+  line-height: 2.5;
+}
+.media_mt .media_txt_share p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.media_mt .media_txt_share a {
+  border: 1px solid #222;
+  padding: 5px 10px;
+  transition: 0.4s;
+}
+.media_mt .media_txt_share a:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+/***** with sum 37˚ *****/
+
+/***** footer *****/
+footer {
+}
+footer .footer_info__pc {
+  display: none;
+}
+footer .footer_info__mt .footer_info__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #eee;
+  padding: 16px;
+}
+footer .footer_info__mt .footer_share {
+  border: 1px solid #eee;
+  padding: 16px;
+}
+footer .footer_info__mt .footer_share p {
+  font-size: 18px;
+  font-weight: 600;
+}
