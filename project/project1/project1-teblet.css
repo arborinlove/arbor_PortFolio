@@ -2,7 +2,6 @@
 
 @import url(./common.css);
 
-
 article {
   width: 100%;
   padding: 40px;
@@ -24,12 +23,6 @@ header .mt-menu {
   align-items: center;
   gap: 240px;
 }
-header .mt-menu .header_menu_icon svg {
-}
-header .mt-menu .header_main__icon img {
-}
-header .mt-menu .header_glass__icon {
-}
 
 /***** main *****/
 .main_m {
@@ -47,6 +40,7 @@ header .mt-menu .header_glass__icon {
   top: 0;
 }
 .main_t .main_t__txt {
+  width: 400px;
   position: relative;
   left: 50px;
   top: 170px;
@@ -277,4 +271,7 @@ header .mt-menu .header_glass__icon {
 /***** footer *****/
 footer .footer_info__pc {
   display: none;
+}
+footer .footer_info__mt {
+  width: 100%;
 }

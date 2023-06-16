@@ -1,6 +1,12 @@
 @charset "utf-8";
 @import url(./common.css);
 
+.upTo {
+  bottom: 85px;
+  width: 50px;
+  height: 50px;
+}
+
 article {
   width: 100%;
   padding: 120px 100px;
@@ -78,9 +84,10 @@ header .pc-menu .pc_header__wrapper ul {
   top: 0;
 }
 .main_p .main_p__txt {
-  position: relative;
-  top: 360px;
+  width: 500px;
+  top: 350px;
   left: 60px;
+  position: relative;
   line-height: 1.6;
 }
 .main_p .main_p__txt h3 {
@@ -101,8 +108,8 @@ header .pc-menu .pc_header__wrapper ul {
   display: none;
 }
 .sum_suggest_p {
-  display: block;
   width: 100%;
+  display: block;
   margin-top: 540px;
 }
 .sum_suggest_p .sum_suggest__img {
@@ -112,7 +119,8 @@ header .pc-menu .pc_header__wrapper ul {
   align-items: center;
 }
 .sum_suggest_p .sum_suggest__img img {
-  width: 33%;
+  width: 28vw;
+  height: 600px;
   padding: 80px;
   background-color: #eee;
 }
@@ -123,7 +131,7 @@ header .pc-menu .pc_header__wrapper ul {
   text-align: center;
 }
 .sum_suggest_p .sum_suggest__txt .sum_suggest__txt_share h2 {
-  width: 520px;
+  width: 28vw;
   font-size: 20px;
   font-weight: 600;
 }
@@ -154,26 +162,24 @@ header .pc-menu .pc_header__wrapper ul {
   display: none;
 }
 .sum_season__p {
-  width: 100%;
   display: block;
   margin-top: 20px;
 }
 .sum_season__p .sum_season__p_time-energy {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 12px;
 }
 .sum_season__p .sum_season__p_time-energy .sum_season__suggest___time-energy_1 {
-  width: 460px;
-  height: 700px;
+  width: 33%;
+  height: 600px;
   background-color: #eee;
   padding: 20px;
 }
 .sum_season__p .sum_season__p_time-energy .sum_season__suggest___time-energy_2 {
-  width: 460px;
-  height: 700px;
+  width: 33%;
+  height: 600px;
   background-color: #eee;
   padding: 20px;
 }
@@ -182,7 +188,7 @@ header .pc-menu .pc_header__wrapper ul {
   text-align: center;
 }
 .sum_season__p .sum_season__p_time-energy .sum_season__suggest___txt_share h2 {
-  margin-top: 50px;
+  margin-top: 30px;
   font-size: 26px;
   line-height: 2;
   font-weight: 600;
@@ -206,8 +212,8 @@ header .pc-menu .pc_header__wrapper ul {
   .sum_season__suggest___time_p
   .sum_season__suggest___timeimg
   img {
-  width: 800px;
-  height: 700px;
+  width: 100%;
+  height: 600px;
 }
 .sum_season__p
   .sum_season__p_time-energy
@@ -215,7 +221,7 @@ header .pc-menu .pc_header__wrapper ul {
   .sum_season__suggest___timetxt {
   width: 100%;
   position: absolute;
-  top: 550px;
+  top: 450px;
   left: 50px;
   text-align: left;
 }
@@ -251,6 +257,7 @@ header .pc-menu .pc_header__wrapper ul {
   display: none;
 }
 .media_pt {
+  width: 100%;
   display: block;
   margin-top: 10px;
 }
@@ -268,6 +275,7 @@ header .pc-menu .pc_header__wrapper ul {
   display: none;
 }
 .sum_slide_p {
+  width: 100%;
   display: block;
 }
 .sum_slide_p .sum_slide_p__img {
@@ -283,6 +291,7 @@ footer .footer_info__mt {
   display: none;
 }
 footer .footer_info__pc {
+  width: 100%;
   display: block;
 }
 footer .footer_info__pc .footer_info__wrapper {
