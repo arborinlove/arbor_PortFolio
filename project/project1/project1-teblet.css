@@ -1,1 +1,280 @@
 @charset "utf-8";
+
+@import url(./common.css);
+
+
+article {
+  width: 100%;
+  padding: 40px;
+}
+
+.sum_txt h2 {
+  text-align: left;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/***** header *****/
+header .pc-menu {
+  display: none;
+}
+header .mt-menu {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 240px;
+}
+header .mt-menu .header_menu_icon svg {
+}
+header .mt-menu .header_main__icon img {
+}
+header .mt-menu .header_glass__icon {
+}
+
+/***** main *****/
+.main_m {
+  display: none;
+}
+.main_p {
+  display: none;
+}
+.main_t {
+  width: 100%;
+  display: block;
+}
+.main_t .main_t__background img {
+  position: absolute;
+  top: 0;
+}
+.main_t .main_t__txt {
+  position: relative;
+  left: 50px;
+  top: 170px;
+  line-height: 1.4;
+}
+.main_t .main_t__txt h3 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+/***** content *****/
+/***** 숨 37˚ 추천 *****/
+.sum_suggest_m {
+  display: none;
+}
+.sum_suggest_p {
+  display: none;
+}
+.sum_suggest_t {
+  display: block;
+  margin-top: 360px;
+}
+.sum_suggest_t .sum_suggest__img {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sum_suggest_t .sum_suggest__img img {
+  width: 240px;
+  padding: 40px;
+  background-color: #eee;
+}
+.sum_suggest_t .sum_suggest__txt {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.sum_suggest_t .sum_suggest__txt .sum_suggest__txt_share h2 {
+  width: 240px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.sum_suggest_t .sum_suggest__txt .sum_suggest__txt_share p {
+  margin-top: 6px;
+  color: #d1d1d1;
+}
+.sum_suggest_t .sum_suggest__txt .sum_suggest__txt_share h3 {
+  margin-top: 16px;
+}
+
+/***** youtube *****/
+.youtube {
+  display: none;
+}
+.best_seller_m {
+  display: none;
+}
+.best_seller_t {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: block;
+}
+.best_seller_t .best_seller_t__img {
+  position: relative;
+}
+.best_seller_t__txt {
+  position: absolute;
+  top: 1220px;
+  left: 100px;
+  /* top: 1110px;
+  left: 70px; */
+}
+.best_seller_t__txt h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.best_seller_t__txt p {
+  margin: 20px 0;
+}
+.best_seller_t__txt a {
+  /* font-size: 16px; */
+  border: 1px solid #222;
+  padding: 5px 10px;
+  transition: 0.4s;
+}
+.best_seller_t__txt a:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+/***** 숨 37˚ 시즌 추천 *****/
+.sum_season__m {
+  display: none;
+}
+.sum_season__p {
+  display: none;
+}
+.sum_season__t {
+  display: block;
+  width: 100%;
+}
+.sum_season__t .sum_season__t_time-energy {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.sum_season__t .sum_season__t_time-energy .sum_season__suggest___time-energy_1 {
+  width: 175px;
+  height: 320px;
+  background-color: #eee;
+}
+.sum_season__t .sum_season__t_time-energy .sum_season__suggest___time-energy_2 {
+  width: 175px;
+  height: 320px;
+  background-color: #eee;
+}
+.sum_season__t .sum_season__t_time-energy .sum_season__suggest___txt_share {
+  width: 100%;
+  text-align: center;
+}
+.sum_season__t .sum_season__t_time-energy .sum_season__suggest___txt_share h2 {
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.sum_season__t .sum_season__t_time-energy .sum_season__suggest___txt_share h3 {
+  font-size: 13px;
+  line-height: 2;
+  color: #d1d1d1;
+}
+.sum_season__t .sum_season__t_time-energy .sum_season__suggest___txt_share p {
+  margin-top: 10px;
+}
+.sum_season__t
+  .sum_season__t_time-energy
+  .sum_season__suggest___time_t
+  .sum_season__suggest___timeimg {
+  position: relative;
+}
+.sum_season__t
+  .sum_season__t_time-energy
+  .sum_season__suggest___time_t
+  .sum_season__suggest___timeimg
+  img {
+  width: 380px;
+  height: 320px;
+}
+.sum_season__t
+  .sum_season__t_time-energy
+  .sum_season__suggest___time_t
+  .sum_season__suggest___timetxt {
+  position: absolute;
+  top: 10px;
+  left: 166px;
+  text-align: right;
+}
+.sum_season__t
+  .sum_season__t_time-energy
+  .sum_season__suggest___time_t
+  .sum_season__suggest___timetxt
+  h2 {
+  line-height: 1.6;
+  font-size: 20px;
+  font-weight: 600;
+}
+.sum_season__t
+  .sum_season__t_time-energy
+  .sum_season__suggest___time_t
+  .sum_season__suggest___timetxt
+  p {
+  font-size: 15px;
+}
+
+/***** media *****/
+.media_m {
+  display: none;
+}
+.media_pt {
+  margin-top: 80px;
+  display: block;
+  width: 100%;
+}
+.media_pt .media_img {
+  display: flex;
+  gap: 20px;
+}
+.media_pt .media_txt {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.media_pt .media_txt .media_txt_share {
+  margin-top: 14px;
+  line-height: 2.4;
+}
+.media_pt .media_txt .media_txt_share p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.media_pt .media_txt .media_txt_share a {
+  border: 1px solid #000;
+  padding: 5px 10px;
+  transition: 0.4s;
+}
+.media_pt .media_txt .media_txt_share a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/***** with sum 37˚ *****/
+.sum_slide_m {
+  display: none;
+}
+.sum_slide_p {
+  display: none;
+}
+.sum_slide_t {
+  display: block;
+}
+.sum_slide_t .sum_slide_t__img {
+  display: flex;
+  gap: 10px;
+}
+
+/***** footer *****/
+footer .footer_info__pc {
+  display: none;
+}

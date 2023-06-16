@@ -1,10 +1,6 @@
 @charset "utf-8";
 
 body {
-    font-family: "Pretendard", sans-serif;
-    width: 100%;
-}
-
-.flex {
-    display: flex;
+  font-family: 'Pretendard', sans-serif;
+  width: 100%;
 }

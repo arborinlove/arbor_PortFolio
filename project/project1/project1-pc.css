@@ -1,0 +1,304 @@
+@charset "utf-8";
+@import url(./common.css);
+
+article {
+  width: 100%;
+  padding: 120px 100px;
+}
+
+.sum_txt h2 {
+  font-size: 28px;
+}
+
+/***** header *****/
+header .mt-menu {
+  display: none;
+}
+header .pc-menu {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: block;
+  position: relative;
+  z-index: 9999;
+  padding: 5px;
+}
+header .pc-menu .pc_header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .pc-menu .pc_header .language_list {
+  display: flex;
+  align-items: center;
+}
+#language {
+  border: none;
+  background-color: inherit;
+  text-align: center;
+  width: 160px;
+}
+/* header .pc-menu .language_list .language_icon {
+  width: 20px;
+  height: 20px;
+} */
+header .pc_header__main___icon {
+  width: 280px;
+}
+header .pc_header__more {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+header .pc_header__more img {
+  width: 20px;
+  height: 20px;
+}
+header .pc-menu .pc_header__wrapper ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-top: 20px;
+}
+
+/***** main *****/
+.main_t {
+  display: none;
+}
+.main_m {
+  display: none;
+}
+.main_p {
+  width: 100%;
+  display: block;
+}
+.main_p .main_p__background img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.main_p .main_p__txt {
+  position: relative;
+  top: 360px;
+  left: 60px;
+  line-height: 1.6;
+}
+.main_p .main_p__txt h3 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.main_p .main_p__txt p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/***** content *****/
+/***** 숨 37˚ 추천 *****/
+.sum_suggest_m {
+  display: none;
+}
+.sum_suggest_t {
+  display: none;
+}
+.sum_suggest_p {
+  display: block;
+  width: 100%;
+  margin-top: 540px;
+}
+.sum_suggest_p .sum_suggest__img {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sum_suggest_p .sum_suggest__img img {
+  width: 33%;
+  padding: 80px;
+  background-color: #eee;
+}
+.sum_suggest_p .sum_suggest__txt {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.sum_suggest_p .sum_suggest__txt .sum_suggest__txt_share h2 {
+  width: 520px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.sum_suggest_p .sum_suggest__txt .sum_suggest__txt_share p {
+  margin-top: 6px;
+  color: #d1d1d1;
+}
+.sum_suggest_p .sum_suggest__txt .sum_suggest__txt_share h3 {
+  margin-top: 16px;
+}
+
+/***** youtube *****/
+.best_seller_m {
+  display: none;
+}
+.best_seller_t {
+  display: none;
+}
+.youtube {
+  display: block;
+}
+
+/***** 숨 37˚ 시즌 추천 *****/
+.sum_season__m {
+  display: none;
+}
+.sum_season__t {
+  display: none;
+}
+.sum_season__p {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+}
+.sum_season__p .sum_season__p_time-energy {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.sum_season__p .sum_season__p_time-energy .sum_season__suggest___time-energy_1 {
+  width: 460px;
+  height: 700px;
+  background-color: #eee;
+  padding: 20px;
+}
+.sum_season__p .sum_season__p_time-energy .sum_season__suggest___time-energy_2 {
+  width: 460px;
+  height: 700px;
+  background-color: #eee;
+  padding: 20px;
+}
+.sum_season__p .sum_season__p_time-energy .sum_season__suggest___txt_share {
+  width: 100%;
+  text-align: center;
+}
+.sum_season__p .sum_season__p_time-energy .sum_season__suggest___txt_share h2 {
+  margin-top: 50px;
+  font-size: 26px;
+  line-height: 2;
+  font-weight: 600;
+}
+.sum_season__p .sum_season__p_time-energy .sum_season__suggest___txt_share h3 {
+  font-size: 22px;
+  color: #d1d1d1;
+}
+.sum_season__p .sum_season__p_time-energy .sum_season__suggest___txt_share p {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.sum_season__p
+  .sum_season__p_time-energy
+  .sum_season__suggest___time_p
+  .sum_season__suggest___timeimg {
+  position: relative;
+}
+.sum_season__p
+  .sum_season__p_time-energy
+  .sum_season__suggest___time_p
+  .sum_season__suggest___timeimg
+  img {
+  width: 800px;
+  height: 700px;
+}
+.sum_season__p
+  .sum_season__p_time-energy
+  .sum_season__suggest___time_p
+  .sum_season__suggest___timetxt {
+  width: 100%;
+  position: absolute;
+  top: 550px;
+  left: 50px;
+  text-align: left;
+}
+.sum_season__p
+  .sum_season__p_time-energy
+  .sum_season__suggest___time_p
+  .sum_season__suggest___timetxt
+  h2 {
+  line-height: 1.6;
+  font-size: 26px;
+  font-weight: 600;
+}
+.sum_season__p
+  .sum_season__p_time-energy
+  .sum_season__suggest___time_p
+  .sum_season__suggest___timetxt
+  h3 {
+  color: #2222226c;
+  font-size: 22px;
+}
+.sum_season__p
+  .sum_season__p_time-energy
+  .sum_season__suggest___time_p
+  .sum_season__suggest___timetxt
+  p {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/***** media *****/
+.media_m {
+  display: none;
+}
+.media_pt {
+  display: block;
+  margin-top: 10px;
+}
+.media_pt .media_txt .media_txt_share p {
+  font-size: 26px;
+}
+.media_pt .media_txt .media_txt_share a {
+  font-size: 20px;
+}
+/***** with sum 37˚ *****/
+.sum_slide_m {
+  display: none;
+}
+.sum_slide_t {
+  display: none;
+}
+.sum_slide_p {
+  display: block;
+}
+.sum_slide_p .sum_slide_p__img {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+/***** footer *****/
+footer .footer_info__mt {
+  display: none;
+}
+footer .footer_info__pc {
+  display: block;
+}
+footer .footer_info__pc .footer_info__wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid #eee;
+  padding: 20px;
+}
+footer .footer_info__pc .footer_info__wrapper .footer_info__icon {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .footer_share {
+  border-top: 1px solid #eee;
+  padding: 40px;
+  line-height: 2;
+}

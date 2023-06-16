@@ -16,37 +16,39 @@
     <link rel="shortcut icon" href="../../common/favicon.ico/sum.ico" type="image/x-icon">
     <!-- reset -->
     <link rel="stylesheet" href="../../common/style/minireset.min.css" />
-    <!-- pc style -->
-    <link rel="stylesheet" href="./project1-pc.css" media="(width >=1920px)">
-    <!-- tablet style -->
-    <link rel="stylesheet" href="./project1-teblet.css" media="(width >=820px)">
     <!-- mobile style -->
-    <link rel=" stylesheet" href="./project1.css">
+    <link rel=" stylesheet" href="./project1.css" media="(min-width: 420px)">
+    <!-- tablet style -->
+    <link rel="stylesheet" href="./project1-teblet.css" media="(min-width:820px)">
+    <!-- pc style -->
+    <link rel="stylesheet" href="./project1-pc.css" media="(min-width: 1220px)">
 </head>
 
 <body>
     <!-- PC HEADER -->
     <header>
         <div class=" pc-menu">
-            <div class="language_list">
-                <select name="language" id="language">
-                    <option value="한국/한국어">한국/한국어</option>
-                    <option value="USA/ENGLISH">USA/ENGLISH</option>
-                    <option value="INDONESIA/BAHASA INDONESIA">INDONESIA/BAHASA INDONESIA</option>
-                    <option value="INTERNATIONAL/ENGLISH">INTERNATIONAL/ENGLISH</option>
-                    <option value="SINGAPORE/ENGLISH">SINGAPORE/ENGLISH</option>
-                </select>
-                <div class="language_icon">
-                    <p>icon</p>
+            <div class="pc_header">
+                <div class="language_list">
+                    <select name="language" id="language">
+                        <option value="한국/한국어">한국/한국어</option>
+                        <option value="USA/ENGLISH">USA/ENGLISH</option>
+                        <option value="INDONESIA/BAHASA INDONESIA">INDONESIA/BAHASA INDONESIA</option>
+                        <option value="INTERNATIONAL/ENGLISH">INTERNATIONAL/ENGLISH</option>
+                        <option value="SINGAPORE/ENGLISH">SINGAPORE/ENGLISH</option>
+                    </select>
+                    <!-- <div class="language_icon">
+                        <img src="./images/header arrow.png" alt="header arrow">
+                    </div> -->
                 </div>
-            </div>
-            <div class="pc_header__main___icon">
-                <p>main icon</p>
-            </div>
-            <div class="pc_header__more">
-                <a href="#">매장찾기</a>
-                <a href="#">구매하기</a>
-                <p>more icon</p>
+                <div class="pc_header__main___icon">
+                    <img src="./images/숨모바일로고.svg" alt="mobile logo">
+                </div>
+                <div class="pc_header__more">
+                    <a href="#">매장찾기</a>
+                    <a href="#">구매하기</a>
+                    <img src="./images/glass.png" alt="glass">
+                </div>
             </div>
             <div class="pc_header__wrapper">
                 <ul>
@@ -79,49 +81,42 @@
             </div>
         </div>
     </header>
-    <!-- MAIN -->
-    <div class="main">
-        <div class="main_background">
-            <img src="./images/숨수지모바일3.jpg" alt="수지pc_img">
+    <!-- m MAIN -->
+    <div class="main_m">
+        <div class="main_m__background">
+            <img src="./images/숨수지모바일3.jpg" alt="수지모바일_img">
         </div>
-        <div class="main_txt">
+        <div class="main_m__txt">
             <h3>깊은 바다가 전하는<br>
                 강력한 수분 에너지</h3>
             <p>Water-full Marine Relief Gel Cream</p>
         </div>
     </div>
+    <!-- t MAIN -->
+    <div class="main_t">
+        <div class="main_t__background">
+            <img src="./images/숨수지피시2.jpg" alt="수지pc2_img">
+        </div>
+        <div class="main_t__txt">
+            <h3>Breathe with Nature</h3>
+            <p>Micro-Active Repair Serum</p>
+        </div>
+    </div>
+    <!-- p MAIN -->
+    <div class="main_p">
+        <div class="main_p__background">
+            <img src="./images/숨수지피시1.jpg" alt="수지pc1_img">
+        </div>
+        <div class="main_p__txt">
+            <p>Secret Essence</p>
+            <h3>숨37˚ NO.1 BEST 에센스</h3>
+        </div>
+    </div>
     <!-- content -->
     <!-- 숨 37˚ 추천 -->
     <article>
-        <div class="sum_suggest_pc">
-            <div class="sum_txt">
-                <h2>숨 37˚ 추천</h2>
-            </div>
-            <div class="sum_suggest__img">
-                <a href="#"><img src="./images/숨화장품1.png" alt="화장품1"></a>
-                <a href="#"><img src="./images/숨화장품2.png" alt="화장품2"></a>
-                <a href="#"><img src="./images/숨화장품3.png" alt="화장품3"></a>
-            </div>
-            <div class="sum_suggest__txt">
-                <div class="sum_suggest__txt_share">
-                    <p>숨마 엘릭서 에센스</p>
-                    <p>Summa Elixir Essence</p>
-                    <p>160,000원</p>
-                </div>
-                <div class="sum_suggest__txt_share">
-                    <p>마이크로액티브 리페어 세럼</p>
-                    <p>Micro-Active Repair Serum</p>
-                    <p>75,000원</p>
-                </div>
-                <div class="sum_suggest__txt_share">
-                    <p>워터-풀 마린 릴리프 젤 크림</p>
-                    <p>Water-full Marine Relief Gel Cream</p>
-                    <p>85,000원</p>
-                </div>
-            </div>
-        </div>
-        <!-- MOBILE, TABLET ver -->
-        <div class="sum_suggest_mt">
+        <!-- MOBILE ver -->
+        <div class="sum_suggest_m">
             <div class="sum_txt">
                 <h2>숨 37˚ 추천</h2>
             </div>
@@ -134,56 +129,98 @@
                 <p>85,000원</p>
             </div>
         </div>
+        <!-- TABLET ver -->
+        <div class="sum_suggest_t">
+            <div class="sum_txt">
+                <h2>숨 37˚ 추천</h2>
+            </div>
+            <div class="sum_suggest__img">
+                <a href="#"><img src="./images/숨화장품1.png" alt="화장품1"></a>
+                <a href="#"><img src="./images/숨화장품2-1.png" alt="화장품2"></a>
+                <a href="#"><img src="./images/숨화장품3.png" alt="화장품3"></a>
+            </div>
+            <div class="sum_suggest__txt">
+                <div class="sum_suggest__txt_share">
+                    <h2>숨마 엘릭서 에센스</h2>
+                    <p>Summa Elixir Essence</p>
+                    <h3>160,000원</h3>
+                </div>
+                <div class="sum_suggest__txt_share">
+                    <h2>마이크로액티브 리페어 세럼</h2>
+                    <p>Micro-Active Repair Serum</p>
+                    <h3>75,000원</h3>
+                </div>
+                <div class="sum_suggest__txt_share">
+                    <h2>워터-풀 마린 릴리프 젤 크림</h2>
+                    <p>Water-full Marine Relief Gel Cream</p>
+                    <h3>85,000원</h3>
+                </div>
+            </div>
+        </div>
+        <!-- PC ver -->
+        <div class="sum_suggest_p">
+            <div class="sum_txt">
+                <h2>숨 37˚ 추천</h2>
+            </div>
+            <div class="sum_suggest__img">
+                <a href="#"><img src="./images/숨화장품1.png" alt="화장품1"></a>
+                <a href="#"><img src="./images/숨화장품2-1.png" alt="화장품2"></a>
+                <a href="#"><img src="./images/숨화장품3.png" alt="화장품3"></a>
+            </div>
+            <div class="sum_suggest__txt">
+                <div class="sum_suggest__txt_share">
+                    <h2>숨마 엘릭서 에센스</h2>
+                    <p>Summa Elixir Essence</p>
+                    <h3>160,000원</h3>
+                </div>
+                <div class="sum_suggest__txt_share">
+                    <h2>마이크로액티브 리페어 세럼</h2>
+                    <p>Micro-Active Repair Serum</p>
+                    <h3>75,000원</h3>
+                </div>
+                <div class="sum_suggest__txt_share">
+                    <h2>워터-풀 마린 릴리프 젤 크림</h2>
+                    <p>Water-full Marine Relief Gel Cream</p>
+                    <h3>85,000원</h3>
+                </div>
+            </div>
+        </div>
     </article>
     <!-- pc youtube -->
     <article>
         <div class="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/o-G8Q7XWTL0"
+            <iframe width="100%" height="800" src="https://www.youtube.com/embed/o-G8Q7XWTL0"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
-        <!-- MOBILE, TABLET ver -->
-        <div class="best_seller">
-            <img src="./images/sum-타임에너지 모바일.jpg" alt="타임에너지모바일">
+        <!-- MOBILE ver -->
+        <div class="best_seller_m">
+            <div class="best_seller_m__img">
+                <img src="./images/sum-타임에너지 모바일.jpg" alt="타임에너지모바일">
+            </div>
+            <div class="best_seller_m__txt">
+                <h2>베스트 셀러</h2>
+                <p>건강하게 빛나고 힘 있게 채우는<br>숨의 시그니처 케어</p>
+                <a href="#">자세히 보기</a>
+            </div>
         </div>
-        <div class="best_seller_txt">
-            <h2>베스트 셀러</h2>
-            <p>건강하게 빛나고 힘 있게 채우는<br>숨의 시그니처 케어</p>
-            <a href="#">자세히 보기</a>
+        <!-- TABLET ver -->
+        <div class="best_seller_t">
+            <div class="best_seller_t__img">
+                <img src="./images/sum-타임에너지 태블릿.jpg" alt="타임에너지태블릿">
+            </div>
+            <div class="best_seller_t__txt">
+                <h2>베스트 셀러</h2>
+                <p>건강하게 빛나고 힘 있게 채우는<br>숨의 시그니처 케어</p>
+                <a href="#">자세히 보기</a>
+            </div>
         </div>
     </article>
     <!-- 숨 37˚ 시즌 추천 -->
+    <!-- 숨 37˚ 시즌 추천 MOBILE ver -->
     <article>
-        <div class="sum_txt">
-            <h2>숨 37˚ 시즌 추천</h2>
-        </div>
-        <div class="sum_season__pc">
-            <div class="sum_season__suggest___img">
-                <a href="#"><img src="./images/타임에너지스킨.png" alt="타임에너지스킨"></a>
-                <a href="#"><img src="./images/타임에너지 pc.jpg" alt="타임에너지pc"></a>
-                <a href="#"><img src="./images/타임에너지에멀젼.png" alt="타임에너지에멀젼"></a>
-            </div>
-            <div class="sum_season__suggest___txt">
-                <div class="sum_season__suggest___txt_share">
-                    <p>타임에너지 리셋팅 토너</p>
-                    <p>Time energy Resetting Toner</p>
-                    <p>48,000원</p>
-                </div>
-                <div class="sum_season__suggest___txt_share">
-                    <p>워터풀 스페셜 세트</p>
-                    <p>water pool special set</p>
-                    <p>115,000원</p>
-                </div>
-                <div class="sum_season__suggest___txt_share">
-                    <p>타임에너지 리셋팅 에멀젼</p>
-                    <p>Time energy Resetting Emulsion</p>
-                    <p>52,000원</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="sum_season__mt">
+        <div class="sum_season__m">
             <div class="sum_season__suggest___timeimg">
                 <a href="#"><img src="./images/타임에너지 pc.jpg" alt="타임에너지"></a>
             </div>
@@ -211,12 +248,76 @@
                 </div>
             </div>
         </div>
+        <!-- 숨 37˚ 시즌 추천 TABLET ver -->
+        <div class="sum_season__t">
+            <div class="sum_season__t_time-energy">
+                <div class="sum_season__suggest___time-energy_1">
+                    <a href="#"><img src="./images/타임에너지스킨.png" alt="타임에너지스킨"></a>
+                    <div class="sum_season__suggest___txt_share">
+                        <h2>리셋팅 토너</h2>
+                        <h3>Time energy Resetting T...</h3>
+                        <p>48,000원</p>
+                    </div>
+                </div>
+                <div class="sum_season__suggest___time_t">
+                    <div class="sum_season__suggest___timeimg">
+                        <a href="#"><img src="./images/타임에너지 pc.jpg" alt="타임에너지"></a>
+                        <div class="sum_season__suggest___timetxt">
+                            <h2>타임 에너지</h2>
+                            <p>순하게 피부 에너지를 충전해 주는<br>
+                                자연ㆍ발효 영양보습라인</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sum_season__suggest___time-energy_2">
+                    <a href="#"><img src="./images/타임에너지에멀젼.png" alt="타임에너지에멀젼"></a>
+                    <div class="sum_season__suggest___txt_share">
+                        <h2>리셋팅 에멀젼</h2>
+                        <h3>Time energy Resetting E...</h3>
+                        <p>52,000원</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 숨 37˚ 시즌 추천 PC ver -->
+        <div class="sum_season__p">
+            <div class="sum_season__p_time-energy">
+                <div class="sum_season__suggest___time-energy_1">
+                    <a href="#"><img src="./images/타임에너지스킨.png" alt="타임에너지스킨"></a>
+                    <div class="sum_season__suggest___txt_share">
+                        <h2>리셋팅 토너</h2>
+                        <h3>Time energy Resetting T...</h3>
+                        <p>48,000원</p>
+                    </div>
+                </div>
+                <div class="sum_season__suggest___time_p">
+                    <div class="sum_season__suggest___timeimg">
+                        <a href="#"><img src="./images/타임에너지 pc.jpg" alt="타임에너지"></a>
+                        <div class="sum_season__suggest___timetxt">
+                            <h2>워터풀 스페셜 세트</h2>
+                            <h3>water pool special set</h3>
+                            <p>115,000원</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sum_season__suggest___time-energy_2">
+                    <a href="#"><img src="./images/타임에너지에멀젼.png" alt="타임에너지에멀젼"></a>
+                    <div class="sum_season__suggest___txt_share">
+                        <h2>리셋팅 에멀젼</h2>
+                        <h3>Time energy Resetting E...</h3>
+                        <p>52,000원</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </article>
     <!-- MEDIA -->
     <article>
-        <div class="media_img__pc">
-            <img src="./images/숨이나영.jpg" alt="숨이나영">
-            <img src="./images/숨전지현.jpg" alt="숨전지현">
+        <div class="media_pt">
+            <div class="media_img">
+                <img src="./images/숨이나영 모바일.jpg" alt="숨이나영pt">
+                <img src="./images/숨전지현 모바일.png" alt="숨전지현pt">
+            </div>
             <div class="media_txt">
                 <div class="media_txt_share">
                     <p>숨37˚과 이나영 워터-풀 37초 스토리</p>
@@ -228,17 +329,16 @@
                 </div>
             </div>
         </div>
-
-        <div class="media_mt">
+        <div class="media_m">
             <div class="media_img">
-                <img src="./images/숨이나영 모바일.jpg" alt="숨이나영">
+                <img src="./images/숨이나영 모바일.jpg" alt="숨이나영m">
             </div>
             <div class="media_txt_share">
                 <p>숨37˚과 이나영 워터-풀 37초 스토리</p>
                 <a href="#">자세히 보기</a>
             </div>
             <div class="media_img">
-                <img src="./images/숨전지현 모바일.jpg" alt="숨전지현">
+                <img src="./images/숨전지현 모바일.jpg" alt="숨전지현m">
             </div>
             <div class="media_txt_share">
                 <p>불멸의 금빛 에너지 여신의 엘릭서</p>
@@ -252,36 +352,31 @@
         <div class="sum_txt">
             <h2>With sum 37˚</h2>
         </div>
-        <div class="sum_slide">
+            <!-- with pc -->
+            <div class="sum_slide_p">
+                <div class="sum_slide_p__img">
+                    <a href="#"><img src="./images/전지현1.jpg" alt="전지현1"></a>
+                    <a href="#"><img src="./images/전지현2.jpg" alt="전지현2"></a>
+                    <a href="#"><img src="./images/화장품1.jpg" alt="화장품1"></a>
+                    <a href="#"><img src="./images/전지현3.jpg" alt="전지현3"></a>
+                    <a href="#"><img src="./images/화장품2.jpg" alt="화장품2"></a>
+                </div>
+            </div>
+        <!-- with mobile -->
+        <div class="sum_slide_m">
             <a href="#"><img src="./images/전지현1.jpg" alt="전지현1"></a>
-            <!-- <a href="#"><img src="./images/전지현2.jpg" alt="전지현2"></a>
-            <a href="#"><img src="" alt=""></a>
-            <a href="#"><img src="" alt=""></a>
-            <a href="#"><img src="" alt=""></a> -->
+            <!-- <a href="#"><img src="./images/전지현2.jpg" alt="전지현2"></a> -->
         </div>
+        <!-- with tablet -->
+        <div class="sum_slide_t">
+            <div class="sum_slide_t__img">
+                <a href="#"><img src="./images/전지현1.jpg" alt="전지현1"></a>
+                <a href="#"><img src="./images/전지현2.jpg" alt="전지현2"></a>
+                <a href="#"><img src="./images/화장품1.jpg" alt="화장품1"></a>
+            </div>
     </article>
     <!-- FOOTER -->
     <footer>
-        <div class="footer_info__pc">
-            <a href="#">회사소개</a>
-            <a href="#">서비스이용약관</a>
-            <a href="#">UGC이용약관</a>
-            <a href="#">개인정보처리방침</a>
-            <a href="#">영상정보처리방침</a>
-            <a href="#">사이트맵</a>
-            <a href="#">로그인</a>
-            <!-- footer_info_icon -->
-            <div class="footer_info__icon">
-                <a href="#"><img src="./images/facebookLogo.png" alt="facebook"></a>
-                <a href="#"><img src="./images/instaLogo.png" alt="instagram"></a>
-                <a href="#"><img src="./images/youtubeLogo.png" alt="youtube"></a>
-                <a href="#"><img src="./images/kakaoChannelLogo.png" alt="kakao"></a>
-            </div>
-            <div class="footer_share">
-                <p>고객서비스센터(수신자요금부담) : 080-023-5454 (월~금: AM 09:00~PM 06:00)<br>© arborinlove@github.com</p>
-            </div>
-        </div>
-
         <div class="footer_info__mt">
             <div class="footer_info__icon">
                 <a href="#"><img src="./images/facebookLogo.png" alt="facebook"></a>
@@ -291,6 +386,27 @@
             </div>
             <div class="footer_share">
                 <p>© arborinlove@github.com</p>
+            </div>
+        </div>
+        <div class="footer_info__pc">
+            <div class="footer_info__wrapper">
+                <a href="#">회사소개</a>
+                <a href="#">서비스이용약관</a>
+                <a href="#">UGC이용약관</a>
+                <a href="#">개인정보처리방침</a>
+                <a href="#">영상정보처리방침</a>
+                <a href="#">사이트맵</a>
+                <a href="#">로그인</a>
+                <!-- footer_info_icon -->
+                <div class="footer_info__icon">
+                    <a href="#"><img src="./images/facebookLogo.png" alt="facebook"></a>
+                    <a href="#"><img src="./images/instaLogo.png" alt="instagram"></a>
+                    <a href="#"><img src="./images/youtubeLogo.png" alt="youtube"></a>
+                    <a href="#"><img src="./images/kakaoChannelLogo.png" alt="kakao"></a>
+                </div>
+            </div>
+            <div class="footer_share">
+                <p>고객서비스센터(수신자요금부담) : 010-123-4567 (월~금: AM 09:00~PM 06:00)<br>© arborinlove@github.com</p>
             </div>
         </div>
     </footer>
