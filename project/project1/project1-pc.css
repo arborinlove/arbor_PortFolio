@@ -128,14 +128,14 @@ header .pc-menu .pc_header__wrapper ul {
 .sum_suggest__txt > h2 {
   font-size: 24px;
   line-height: 1.5;
- }
- .sum_suggest__txt > p {
+}
+.sum_suggest__txt > p {
   font-size: 20px;
- }
- .sum_suggest__txt > h3 {
+}
+.sum_suggest__txt > h3 {
   font-size: 18px;
   margin-top: 15px;
- }
+}
 /***** youtube *****/
 .best_seller_m {
   display: none;
@@ -145,6 +145,10 @@ header .pc-menu .pc_header__wrapper ul {
 }
 .youtube {
   display: block;
+}
+.youtube iframe {
+  width: 100%;
+  height: 800px;
 }
 
 /***** 숨 37˚ 시즌 추천 *****/
