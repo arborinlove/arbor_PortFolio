@@ -1,0 +1,213 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+::selection {
+  background-color: #e2e2e2;
+  color: #fff;
+}
+::-webkit-scrollbar {
+  width: 14px;
+}
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #bccdfc;
+  border-radius: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-image: linear-gradient(
+    -230deg,
+    #a6bdfc,
+    #7998ee,
+    #4e6bb4,
+    #1d42a1 /*#BDD8F1,#82A6CB,#3667A6,#214177*/
+  );
+  background-size: 400%;
+  animation: gradient1 7s infinite ease-in-out;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+}
+
+@keyframes gradient1 {
+  20% {
+    background-position: 0 30%;
+  }
+  40% {
+    background-position: 20% 50%;
+  }
+  60% {
+    background-position: 90% 50%;
+  }
+  100% {
+    background-position: 0 30%;
+  }
+}
+
+h2 {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  font-weight: 600;
+  width: 1700px;
+  margin: 100px auto;
+  line-height: 3;
+  border-bottom: 2px solid #000;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+header .main_logo {
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+
+header .menu {
+  font-size: 1.5rem;
+  margin-right: 20px;
+  text-transform: capitalize;
+  display: flex;
+  gap: 30px;
+}
+
+/* main */
+
+main {
+  height: 100vh;
+}
+
+main .main_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 110px 0;
+}
+
+main .main_txt h3 {
+  font-size: 8rem;
+  font-weight: 600;
+}
+
+main .main_txt p {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+main .main_txt a {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+main .main_myicon {
+  width: 600px;
+  /* background-color: rgba(255, 255, 255, 0.3); */
+}
+
+/* portfolio */
+.sum37 {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sum37 .sum_txt img {
+  width: 400px;
+}
+
+.sum37 .sum_txt {
+  text-align: center;
+}
+
+.sum37 .sum_txt .sum_txt_tag {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 3;
+}
+.sum37 .sum_txt h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.sum37 img {
+  width: 1000px;
+}
+
+.happyrun {
+  margin-top: 280px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.happyrun .happyrun_img {
+  display: flex;
+  gap: 40px;
+}
+.happyrun .happyrun_img img {
+  width: 400px;
+}
+.happyrun .happyrun_txt {
+  text-align: center;
+}
+.happyrun .happyrun_txt img {
+  width: 260px;
+}
+.happyrun .happyrun_txt .happyrun_tag {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 3;
+}
+.happyrun .happyrun_txt h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* about me */
+.skills .my_txt {
+  font-size: 4.5rem;
+  font-weight: 600;
+  margin: 50px auto;
+  width: 1700px;
+}
+
+.skills h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  width: 1700px;
+  margin: 100px 100px 20px auto;
+  line-height: 3;
+  border-bottom: 2px solid #000;
+}
+.skills ul {
+  list-style: outside;
+  margin-left: 90px;
+  padding: 50px;
+}
+
+.skills ul > li {
+  font-size: 2rem;
+  line-height: 2;
+}
+
+/* get in touch */
+
+.getintouch img {
+  width: 600px;
+}
