@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 
 ::selection {
-  background-color: #e2e2e2;
+  background-color: #8adeff;
   color: #fff;
 }
 ::-webkit-scrollbar {
@@ -15,6 +15,10 @@
 ::-webkit-scrollbar-thumb {
   background-color: #bccdfc;
   border-radius: 10px;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 html {
@@ -33,6 +37,9 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 @keyframes gradient1 {
@@ -55,9 +62,13 @@ h2 {
   font-size: 2.5rem;
   font-weight: 600;
   width: 1700px;
-  margin: 100px auto;
+  margin: auto;
   line-height: 3;
   border-bottom: 2px solid #000;
+}
+
+article {
+  width: 100%;
 }
 
 /* header */
@@ -84,6 +95,7 @@ header .menu {
 /* main */
 
 main {
+  width: 100%;
   height: 100vh;
 }
 
@@ -111,72 +123,59 @@ main .main_txt a {
 
 main .main_myicon {
   width: 600px;
-  /* background-color: rgba(255, 255, 255, 0.3); */
 }
 
 /* portfolio */
-.sum37 {
-  margin-top: 120px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.mySwiper {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
 }
 
-.sum37 .sum_txt img {
-  width: 400px;
+.mySwiper .swiper-slide {
+  width: 100%;
+  cursor: -webkit-grab;
 }
 
-.sum37 .sum_txt {
+.mySwiper .swiper-slide img {
+  /* width: 50%; */
+  height: 70%;
+  object-fit: contain;
+  margin: auto;
+  margin-top: 50px;
+}
+
+/* .mySwiper .bg2 img {
+  width: 330px;
+} */
+
+.mySwiper .swiper-slide .txt-box {
   text-align: center;
+  margin-top: 20px;
 }
 
-.sum37 .sum_txt .sum_txt_tag {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+.mySwiper .swiper-slide .txt-box p {
   font-size: 1.4rem;
-  font-weight: 500;
-  line-height: 3;
 }
-.sum37 .sum_txt h3 {
+
+.mySwiper .swiper-slide .txt-box h3 {
   font-size: 1.5rem;
   font-weight: 500;
 }
-.sum37 img {
-  width: 1000px;
+
+.swiper-button-prev::after {
+  position: absolute;
+  top: -130px;
+  left: 15vw;
+  color: #fff;
 }
 
-.happyrun {
-  margin-top: 280px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.happyrun .happyrun_img {
-  display: flex;
-  gap: 40px;
-}
-.happyrun .happyrun_img img {
-  width: 400px;
-}
-.happyrun .happyrun_txt {
-  text-align: center;
-}
-.happyrun .happyrun_txt img {
-  width: 260px;
-}
-.happyrun .happyrun_txt .happyrun_tag {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  font-size: 1.4rem;
-  font-weight: 500;
-  line-height: 3;
-}
-.happyrun .happyrun_txt h3 {
-  font-size: 1.5rem;
-  font-weight: 500;
+.swiper-button-next::after {
+  position: absolute;
+  top: -130px;
+  right: 15vw;
+  color: #fff;
 }
 
 /* about me */
@@ -187,27 +186,25 @@ main .main_myicon {
   width: 1700px;
 }
 
+.skills-list {
+  margin: auto;
+  width: 1700px;
+  list-style: outside;
+}
+
 .skills h3 {
   font-size: 2.5rem;
   font-weight: 500;
-  width: 1700px;
-  margin: 100px 100px 20px auto;
   line-height: 3;
-  border-bottom: 2px solid #000;
-}
-.skills ul {
-  list-style: outside;
-  margin-left: 90px;
-  padding: 50px;
+  border-top: 1px solid #000;
 }
 
-.skills ul > li {
+.skills-list li {
   font-size: 2rem;
   line-height: 2;
 }
 
 /* get in touch */
-
 .getintouch img {
   width: 600px;
 }
