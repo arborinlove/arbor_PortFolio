@@ -29,28 +29,15 @@ $('.event').each(function () {
 });
 
 // swiper
-// new Swiper('.mySwiper', {
-//   loop: true,
-//   navigation: {
-//     nextEl: '.swiper-button-next',
-//     prevEl: '.swiper-button-prev',
-//   },
-
-//   autoplay: {
-//     delay: 3000,
-//   },
-// });
-
-// Initialize Swiper
-var swiper = new Swiper('.swiper-container', {
-  slidesPerView: 'auto',
-  spaceBetween: 10,
+new Swiper('.mySwiper', {
+  loop: true,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+
+  autoplay: {
+    delay: 3000,
+  },
 });
 
-// Reverse the slide direction
-swiper.params.direction = 'rtl';
-swiper.update();

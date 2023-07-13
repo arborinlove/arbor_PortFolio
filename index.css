@@ -3,18 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 
 ::selection {
-  background-color: #acc3f8;
+  background-color: #528388;
   color: #fff;
-}
-::-webkit-scrollbar {
-  width: 16px;
-}
-::-webkit-scrollbar-track {
-  background-color: #fff;
-}
-::-webkit-scrollbar-thumb {
-  background-color: #283655;
-  border-radius: 10px;
 }
 
 * {
@@ -22,26 +12,7 @@
 }
 
 html {
-  /* scroll-behavior: smooth; */
-  /* background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%); */
-  background-image: linear-gradient(-225deg, #7085b6, #87a7d9, #def3f8);
-  background-size: 400%;
-  animation: gradient1 6s infinite ease-in-out;
-}
-
-@keyframes gradient1 {
-  20% {
-    background-position: 0 30%;
-  }
-  40% {
-    background-position: 20% 50%;
-  }
-  60% {
-    background-position: 90% 70%;
-  }
-  100% {
-    background-position: 0 30%;
-  }
+  background-color: #9BCDD2;
 }
 
 body {
@@ -51,48 +22,100 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  color: #fff;
+  color: #FAF0E4;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 h1 {
   text-transform: capitalize;
   font-size: 2.5rem;
   font-weight: 600;
-  width: 1700px;
+  width: 1600px;
   margin: auto;
   line-height: 3;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #FAF0E4;
 }
 
 /* header */
-/* contents */
-/* main */
-/* portfolio */
-/* about me */
-/* skills */
-/* get in touch */
+header .header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; 
+}
 
-/*
-main .main_txt p {
+header .header-left {
+  margin-left: 20px;
+}
+
+header .header-left > li > a {
+  font-size: 1.4rem;
+}
+
+header .header-right {
+  display: flex;
+  gap: 50px;
+  margin-right: 20px;
+}
+
+header .header-right > li > a {
+ font-size: 1.4rem;
+ transition: 0.4s;
+}
+
+header .header-right > li > a:hover {
+  color: #FF8551;
+}
+
+header .btn {
+  width: 100px;
+  height: 50px;
+  background-color: #FF8551;
+  color: #FAF0E4;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.1rem;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+
+/* main */
+.main {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.main .main-left {
+}
+
+.main .main-left > h3 {
+  font-size: 5rem;
+}
+
+.main .main-left > p {
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 4rem;
-  font-weight: bold;
   white-space: nowrap;
   color: transparent;
   position: absolute;
 }
 
-main .main_txt p::before {
+.main .main-left > p::before {
   content: '안녕하세요, 이수빈입니다!';
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   font-family: 'Noto Sans KR', sans-serif;
-  color: #fff;
+  color: #FAF0E4;
   overflow: hidden;
-  border-right: 1px solid #fff;
+  border-right: 1px solid #FAF0E4;
   animation: typing 8s steps(50) infinite;
 }
 
@@ -108,7 +131,117 @@ main .main_txt p::before {
   }
 }
 
+.main .main-left > a {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 130px;
+  left: 200px;
+}
 
+/* contents */
+/* portfolio */
+.mySwiper {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.mySwiper .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.mySwiper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mySwiper .swiper-button-prev::after {
+  position: absolute;
+  top: -130px;
+  left: 15vw;
+  color: #FAF0E4;
+}
+
+.mySwiper .swiper-button-next::after {
+  position: absolute;
+  top: -130px;
+  right: 15vw;
+  color: #FAF0E4;
+}
+
+/* about me */
+.about-me {
+  width: 100%;
+  height: 100vh;
+}
+
+.about-me h2 {
+  font-size: 5rem;
+  width: 1600px;
+  margin: auto;
+  margin-top: 50px;
+}
+/* skill */
+.skill {
+  width: 100%;
+  height: 100vh;
+}
+
+.skill h3 {
+  font-size: 1.8rem;
+  border-bottom: 1px solid #FAF0E4;
+  width: 1600px;
+  margin: auto;
+  line-height: 2;
+}
+
+.skill ul {
+  width: 1600px;
+  margin: auto;
+  line-height: 1.8;
+  padding: 20px 0 0 50px;
+  margin-bottom: 15px;
+}
+
+.skill ul > li {
+  font-size: 1.4rem;
+}
+
+/* get in touch */
+footer {
+  width: 100%;
+  /* height: 100vh; */
+}
+
+footer > img {
+  width: 500px;
+}
+
+footer .footer-wrapper {
+  width: 1600px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer-wrapper img {
+  width: 100px;
+}
+
+/*
 .mySwiper {
   width: 100%;
   height: 100vh;
@@ -127,62 +260,5 @@ main .main_txt p::before {
   margin: auto;
   margin-top: 50px;
 }
-
-.mySwiper .swiper-slide .txt-box {
-  font-family: 'Noto Sans KR', sans-serif;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.mySwiper .swiper-slide .txt-box p {
-  font-size: 1.4rem;
-  font-weight: 500;
-}
-
-.mySwiper .swiper-slide .txt-box h3 {
-  font-size: 1.5rem;
-  font-weight: 400;
-} */
-
-/* Ensure the swiper container has a defined width and height */
-.swiper-container {
-  width: 100%;
-  height: 100%;
-}
-
-/* Hide the overflow and position the slides */
-.swiper-wrapper {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-/* Position the individual slides */
-.swiper-slide {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Optional: Add transition effect
-.swiper-slide {
-  transition: transform 0.5s ease;
-}
 */
 
-.swiper-button-prev::after {
-  position: absolute;
-  top: -130px;
-  left: 15vw;
-  color: #fff;
-}
-
-.swiper-button-next::after {
-  position: absolute;
-  top: -130px;
-  right: 15vw;
-  color: #fff;
-}
