@@ -188,6 +188,8 @@ main .main_myicon {
 
 .skills-list {
   margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
   width: 1700px;
   list-style: outside;
 }
@@ -197,11 +199,17 @@ main .main_myicon {
   font-weight: 500;
   line-height: 3;
   border-top: 1px solid #000;
+  padding-left: 50px;
 }
 
 .skills-list li {
   font-size: 2rem;
   line-height: 2;
+  padding-left: 50px;
+}
+
+.skills-list li:last-child {
+  border-bottom: 1px solid #000;
 }
 
 /* get in touch */
