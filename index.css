@@ -3,17 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 
 ::selection {
-  background-color: #8adeff;
+  background-color: #acc3f8;
   color: #fff;
 }
 ::-webkit-scrollbar {
   width: 16px;
 }
 ::-webkit-scrollbar-track {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #bccdfc;
+  background-color: #283655;
   border-radius: 10px;
 }
 
@@ -21,24 +21,10 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-  width: 100%;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
-
 html {
-  scroll-behavior: smooth;
-  background-image: linear-gradient(
-    -230deg,
-    #a6bdfc,
-    #7998ee,
-    #4e6bb4,
-    #1d42a1 /*#BDD8F1,#82A6CB,#3667A6,#214177*/
-  );
+  /* scroll-behavior: smooth; */
+  /* background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%); */
+  background-image: linear-gradient(-225deg, #7085b6, #87a7d9, #def3f8);
   background-size: 400%;
   animation: gradient1 6s infinite ease-in-out;
 }
@@ -51,83 +37,78 @@ html {
     background-position: 20% 50%;
   }
   60% {
-    background-position: 90% 50%;
+    background-position: 90% 70%;
   }
   100% {
     background-position: 0 30%;
   }
 }
 
-h2 {
+body {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: #fff;
+}
+
+h1 {
   text-transform: capitalize;
   font-size: 2.5rem;
   font-weight: 600;
   width: 1700px;
   margin: auto;
   line-height: 3;
-  border-bottom: 2px solid #000;
-}
-
-article {
-  width: 100%;
-  height: 100vh;
+  border-bottom: 2px solid #fff;
 }
 
 /* header */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 80px;
-}
-
-header .main_logo {
-  font-size: 1.5rem;
-  margin-left: 20px;
-}
-
-header .menu {
-  font-size: 1.5rem;
-  margin-right: 20px;
-  text-transform: capitalize;
-  display: flex;
-  gap: 30px;
-}
-
+/* contents */
 /* main */
+/* portfolio */
+/* about me */
+/* skills */
+/* get in touch */
 
-main {
-  width: 100%;
-  height: 100vh;
-}
-
-main .main_wrapper {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 110px 0;
-}
-
-main .main_txt h3 {
-  font-size: 8rem;
-  font-weight: 600;
-}
-
+/*
 main .main_txt p {
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 4rem;
   font-weight: bold;
+  white-space: nowrap;
+  color: transparent;
+  position: absolute;
 }
 
-main .main_txt a {
-  font-size: 2rem;
-  text-decoration: underline;
+main .main_txt p::before {
+  content: '안녕하세요, 이수빈입니다!';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #fff;
+  overflow: hidden;
+  border-right: 1px solid #fff;
+  animation: typing 8s steps(50) infinite;
 }
 
-main .main_myicon {
-  width: 600px;
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
 }
 
-/* portfolio */
+
 .mySwiper {
   width: 100%;
   height: 100vh;
@@ -141,30 +122,56 @@ main .main_myicon {
 }
 
 .mySwiper .swiper-slide img {
-  /* width: 50%; */
   height: 70%;
   object-fit: contain;
   margin: auto;
   margin-top: 50px;
 }
 
-/* .mySwiper .bg2 img {
-  width: 330px;
-} */
-
 .mySwiper .swiper-slide .txt-box {
+  font-family: 'Noto Sans KR', sans-serif;
   text-align: center;
   margin-top: 20px;
 }
 
 .mySwiper .swiper-slide .txt-box p {
   font-size: 1.4rem;
+  font-weight: 500;
 }
 
 .mySwiper .swiper-slide .txt-box h3 {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
+} */
+
+/* Ensure the swiper container has a defined width and height */
+.swiper-container {
+  width: 100%;
+  height: 100%;
 }
+
+/* Hide the overflow and position the slides */
+.swiper-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Position the individual slides */
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Optional: Add transition effect
+.swiper-slide {
+  transition: transform 0.5s ease;
+}
+*/
 
 .swiper-button-prev::after {
   position: absolute;
@@ -178,43 +185,4 @@ main .main_myicon {
   top: -130px;
   right: 15vw;
   color: #fff;
-}
-
-/* about me */
-.skills .my_txt {
-  font-size: 4.5rem;
-  font-weight: 600;
-  margin: 50px auto;
-  width: 1700px;
-}
-
-.skills-list {
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  width: 1700px;
-  list-style: outside;
-}
-
-.skills h3 {
-  font-size: 2.5rem;
-  font-weight: 500;
-  line-height: 3;
-  border-top: 1px solid #000;
-  padding-left: 50px;
-}
-
-.skills-list li {
-  font-size: 2rem;
-  line-height: 2;
-  padding-left: 50px;
-}
-
-.skills-list li:last-child {
-  border-bottom: 1px solid #000;
-}
-
-/* get in touch */
-.getintouch img {
-  width: 600px;
 }
