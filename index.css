@@ -22,7 +22,8 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  color: #FAF0E4;
+  /* color: #675D50; */
+  color: #4D4D4D;
 }
 
 body::-webkit-scrollbar {
@@ -36,7 +37,7 @@ h1 {
   width: 1600px;
   margin: auto;
   line-height: 3;
-  border-bottom: 2px solid #FAF0E4;
+  border-bottom: 2px solid #F9E2AF;
 }
 
 .st {
@@ -126,7 +127,7 @@ header .btn {
   font-family: 'Noto Sans KR', sans-serif;
   color: #FF8551;
   overflow: hidden;
-  border-right: 1px solid #FAF0E4;
+  border-right: 3px solid #FAF0E4;
   animation: typing 5s steps(40) infinite;
 }
 
@@ -144,9 +145,6 @@ header .btn {
 
 .main .main-left > a {
   font-size: 2rem;
-  position: absolute;
-  bottom: 120px;
-  left: 140px;
   text-decoration:underline;
 }
 
@@ -218,7 +216,7 @@ header .btn {
 
 .about-me h2 {
   font-size: 4.6rem;
-  width: 1600px;
+  width: 90%;
   margin: auto;
   margin-top: 50px;
 }
