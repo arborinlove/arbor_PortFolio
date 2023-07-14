@@ -39,6 +39,11 @@ h1 {
   border-bottom: 2px solid #FAF0E4;
 }
 
+.st {
+  width: 100%;
+  height: 100vh;
+}
+
 /* header */
 header .header-wrapper {
   display: flex;
@@ -87,7 +92,7 @@ header .btn {
 /* main */
 .main {
   width: 100%;
-  height: 90vh;
+  height: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -103,21 +108,26 @@ header .btn {
 }
 
 .main .main-left > p {
+  font-size: 3.8rem;
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 4rem;
+}
+
+.main .main-left > p > span {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 3.8rem;
   white-space: nowrap;
   color: transparent;
   position: absolute;
 }
 
-.main .main-left > p::before {
-  content: '안녕하세요, 이수빈입니다!';
+.main .main-left > p > span::before {
+  content: '성장이 빠른';
   position: absolute;
   font-family: 'Noto Sans KR', sans-serif;
-  color: #FAF0E4;
+  color: #FF8551;
   overflow: hidden;
   border-right: 1px solid #FAF0E4;
-  animation: typing 8s steps(50) infinite;
+  animation: typing 6s steps(40) infinite;
 }
 
 @keyframes typing {
@@ -135,8 +145,9 @@ header .btn {
 .main .main-left > a {
   font-size: 2rem;
   position: absolute;
-  bottom: 170px;
+  bottom: 120px;
   left: 140px;
+  text-decoration:underline;
 }
 
 .main .main-right {
@@ -196,7 +207,7 @@ header .btn {
 }
 
 .about-me h2 {
-  font-size: 5rem;
+  font-size: 4.6rem;
   width: 1600px;
   margin: auto;
   margin-top: 50px;
