@@ -23,11 +23,12 @@
     <!-- swiper js -->
     <script src="./common/style/swiper-bundle.min.js"></script>
     <!-- 내가 작성한 js -->
-    <script src="./index.js"></script>
+    <script defer src="./index.js"></script>
 </head>
 
 <body>
-    <div class="st">
+    <div class="start">
+        <div class="emoji"><img src="./images/mouse.png" alt="mouse"></div>
     <!-- HEADER -->
     <header>
         <nav>
@@ -36,10 +37,10 @@
                     <li><a href="#">Arborinlove</a></li>
                 </div>
                 <div class="header-right">
-                    <li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="#">ABOUT ME</a></li>
-                    <li><a href="#">SKILLS</a></li>
-                    <li><a href="#">GET IN TOUCH</a></li>     
+                    <li><a href="#title2">PORTFOLIO</a></li>
+                    <li><a href="#title3">ABOUT ME</a></li>
+                    <li><a href="#title4">SKILLS</a></li>
+                    <li><a href="#title5">GET IN TOUCH</a></li>     
                 </div>
             </ul>
         </nav>
@@ -47,7 +48,7 @@
     </header>
 
     <!-- main -->
-    <div class="main event">
+    <div class="main" id="title1">
         <div class="main-left">
             <h3>WEB PUBLISHER</h3>
             <p>안녕하세요,<br><span>성장이 빠른</span><br>이수빈입니다!</p>
@@ -62,7 +63,7 @@
     <!-- contents -->
     <div class="contents">
 
-        <div class="portfolio event">
+        <div class="portfolio" id="title2">
             <h1>PORTFOLIO</h1>
             <div class="swiper-container mySwiper">
                 <div class="swiper-wrapper">
@@ -70,7 +71,7 @@
                         <a href="./sum_page.html" target="_blank"><img src="./images/sum1.png" alt="sum"></a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="./happyrun_page.html" target="_blank"><img src="./images/happyrun.png" alt="happyrun"></a>
+                        <a href="./happyrun_page.html" target="_blank"><img src="./images/happyrun1.png" alt="happyrun"></a>
                     </div>
                     <div class="swiper-slide">
                         <a href="./happyrun_page.html" target="_blank"><img src="./images/canon1.png" alt="canon"></a>
@@ -81,12 +82,12 @@
             </div>
         </div>
 
-        <div class="about-me event">
+        <div class="about-me" id="title3">
             <h1>ABOUT ME</h1>
             <h2>저는 모든 사람들이 웹을 더 쉽게 사용할 수 있도록 하고 목표를 달성하도록 돕는 앱을 구현하고 만드는 것을 좋아합니다.</h2>
         </div>
 
-        <div class="skill event">
+        <div class="skill" id="title4">
             <h1>SKILLS</h1>
             <h3>HTML5 & CSS3</h3>
             <ul>
@@ -115,20 +116,20 @@
 
 
 
-        <footer class="event">
-            <h1>GET IN TOUCH</h1>
+        <footer id="title5">
+            <h1>GET IN TOUCH<span>arborinlove@naver.com</span></h1>
             <div class="footer-wrapper">
                 <div class="footer-left">
                     <ul>
-                    <li><a href="#">MAIN</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="#">ABOUT ME</a></li>
-                    <li><a href="#">SKILLS</a></li>
+                    <li><a href="#title1">MAIN</a></li>
+                    <li><a href="#title2">PORTFOLIO</a></li>
+                    <li><a href="#title3">ABOUT ME</a></li>
+                    <li><a href="#title4">SKILLS</a></li>
                     </ul>
                 </div>
                 <div class="footer-right">
-                    <a href="https://github.com/arborinlove/arbor_PortFolio"><img src="./images/github-b.png" alt="github"></a>
-                    <a href="#"><img src="./images/sms.png" alt="mail"></a>
+                    <a href="https://github.com/arborinlove/arbor_PortFolio"><img src="./images/github-2.png" alt="github"></a>
+                    <a href="https://www.instagram.com/a_rbo_r/"><img src="./images/instagram.png" alt="instagram"></a>
                 </div>
             </div>
         </footer>
