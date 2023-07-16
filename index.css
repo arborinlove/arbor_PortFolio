@@ -226,12 +226,14 @@ header .btn {
 
 .mySwiper .swiper-button-prev::after {
   position: absolute;
+  top: -100px;
   left: 15vw;
   color: #222;
 }
 
 .mySwiper .swiper-button-next::after {
   position: absolute;
+  bottom: 100px;
   right: 15vw;
   color: #222;
 }
