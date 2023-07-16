@@ -202,10 +202,26 @@ header .btn {
 
 .mySwiper .swiper-slide {
   width: 100%;
-  height: 100%;
+  height: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.mySwiper .swiper-slide > .txt-box {
+  font-family: 'Noto Sans KR', sans-serif;
+  position: absolute;
+  top: 620px;
+}
+
+.mySwiper .swiper-slide > .txt-box > p {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 2;
+}
+
+.mySwiper .swiper-slide > .txt-box > h3 {
+  font-size: 1.4rem;
 }
 
 .mySwiper .swiper-button-prev::after {
