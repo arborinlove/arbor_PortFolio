@@ -9,16 +9,6 @@ $('.btn').on('click', () => {
   });
 });
 
-const swiper = new Swiper('.mySwiper', {
-  loop: true,
-
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-});
-
 const emoji = document.querySelector('.emoji');
 
 // 마우스 좌표
@@ -48,3 +38,15 @@ const aniEmoji = () => {
 }
 
 aniEmoji();
+
+new Swiper('.mySwiper', {
+  loop: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  autoplay: {
+    delay: 4000,
+  },
+});
