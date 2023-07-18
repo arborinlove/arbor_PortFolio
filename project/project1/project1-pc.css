@@ -68,13 +68,60 @@ header .pc-menu .pc_header__wrapper ul {
 }
 
 /***** main *****/
-.main_t {
-  display: none;
-}
 .main_m {
   display: none;
 }
-.main_p {
+.main_t {
+  display: none;
+}
+
+.mySwiper1 {
+  display: none;
+}
+
+.mySwiper2 {
+  display: none;
+}
+
+.mySwiper3 {
+  display: block;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.mySwiper3 .swiper-slide {
+  background: no-repeat 50% / cover;
+  text-indent: -9999px;
+}
+
+.mySwiper3 .bg1 {
+  background-image: url(./images/sum-pc1.png);
+}
+
+.mySwiper3 .bg2 {
+  background-image: url(./images/sum-pc2.png);
+}
+
+.mySwiper3 .bg3 {
+  background-image: url(./images/sum-pc3.png);
+}
+
+.mySwiper3 .swiper-button-prev::after {
+  position: absolute;
+  top: -100px;
+  left: 50px;
+  color: #222;
+}
+
+.mySwiper3 .swiper-button-next::after {
+  position: absolute;
+  top: -100px;
+  right: 50px;
+  color: #222;
+}
+
+/* .main_p {
   width: 100%;
   height: 692px;
   display: block;
@@ -99,7 +146,7 @@ header .pc-menu .pc_header__wrapper ul {
 .main_p .main_p__txt p {
   font-size: 20px;
   font-weight: 400;
-}
+} */
 
 /***** content *****/
 /***** 숨 37˚ 추천 *****/
@@ -148,7 +195,8 @@ header .pc-menu .pc_header__wrapper ul {
 }
 .youtube iframe {
   width: 100%;
-  height: 800px;
+  height: 40vw;
+  pointer-events: none;
 }
 
 /***** 숨 37˚ 시즌 추천 *****/
@@ -170,13 +218,13 @@ header .pc-menu .pc_header__wrapper ul {
 }
 .sum_season__p .sum_season__p_time-energy .sum_season__suggest___time-energy_1 {
   width: 33%;
-  height: 600px;
+  height: 700px;
   background-color: #eee;
   padding: 20px;
 }
 .sum_season__p .sum_season__p_time-energy .sum_season__suggest___time-energy_2 {
   width: 33%;
-  height: 600px;
+  height: 700px;
   background-color: #eee;
   padding: 20px;
 }
@@ -210,7 +258,7 @@ header .pc-menu .pc_header__wrapper ul {
   .sum_season__suggest___timeimg
   img {
   width: 100%;
-  height: 600px;
+  height: 700px;
 }
 .sum_season__p
   .sum_season__p_time-energy
@@ -218,7 +266,7 @@ header .pc-menu .pc_header__wrapper ul {
   .sum_season__suggest___timetxt {
   width: 100%;
   position: absolute;
-  top: 450px;
+  top: 550px;
   left: 50px;
   text-align: left;
 }
@@ -280,6 +328,11 @@ header .pc-menu .pc_header__wrapper ul {
   align-items: center;
   flex-flow: column;
 }
+
+.media_p .media_img2 > img {
+  /* height: 830px; */
+}
+
 .media_txt_share_p {
   text-align: center;
   margin-top: 10px;

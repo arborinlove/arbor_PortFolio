@@ -28,10 +28,58 @@ header .mt-menu {
 .main_m {
   display: none;
 }
+
 .main_p {
   display: none;
 }
-.main_t {
+
+.mySwiper1 {
+  display: none;
+}
+
+.mySwiper3 {
+  display: none;
+}
+
+.mySwiper2 {
+  display: block;
+  width: 100%;
+  height: 30vh;
+  overflow: hidden;
+}
+
+.mySwiper2 .swiper-slide {
+  background: no-repeat 50% / cover;
+  text-indent: -9999px;
+}
+
+.mySwiper2 .bg1 {
+  background-image: url(./images/sum-pc1.png);
+}
+
+.mySwiper2 .bg2 {
+  background-image: url(./images/sum-pc2.png);
+}
+
+.mySwiper2 .bg3 {
+  background-image: url(./images/sum-pc3.png);
+}
+
+.mySwiper2 .swiper-button-prev::after {
+  position: absolute;
+  top: -320px;
+  color: #222;
+  font-size: 30px;
+}
+
+.mySwiper2 .swiper-button-next::after {
+  position: absolute;
+  top: -310px;
+  color: #222;
+  font-size: 30px;
+}
+
+/* .main_t {
   width: 100%;
   height: 500px;
   display: block;
@@ -47,7 +95,7 @@ header .mt-menu {
 .main_t .main_t__txt h3 {
   font-size: 28px;
   font-weight: 500;
-}
+} */
 
 /***** content *****/
 /***** 숨 37˚ 추천 *****/
@@ -77,8 +125,8 @@ header .mt-menu {
   padding-top: 20px;
 }
 .sum_suggest__txt > h2 {
- font-size: 18px;
- font-weight: 600;
+  font-size: 18px;
+  font-weight: 600;
 }
 .sum_suggest__txt > p {
   font-size: 15px;
@@ -105,8 +153,8 @@ header .mt-menu {
 }
 .best_seller_t__txt {
   position: absolute;
-  top: 1220px;
-  left: 100px;
+  top: 1000px;
+  left: 80px;
   /* top: 1110px;
   left: 70px; */
 }
