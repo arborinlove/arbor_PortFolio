@@ -12,7 +12,7 @@
 }
 
 html {
-  background-color: #A6D0DD;
+  background-color: #a6d0dd;
   color: #222;
   scroll-behavior: smooth;
 }
@@ -64,7 +64,7 @@ header .header-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px; 
+  padding: 20px;
 }
 
 header .header-left {
@@ -82,18 +82,18 @@ header .header-right {
 }
 
 header .header-right > li > a {
- font-size: 1.4rem;
- transition: 0.4s;
+  font-size: 1.4rem;
+  transition: 0.4s;
 }
 
 header .header-right > li > a:hover {
-  color: #FF6969;
+  color: #ff6969;
 }
 
 header .btn {
   width: 100px;
   height: 50px;
-  background-color: #FF6969;
+  background-color: #ff6969;
   color: #222;
   border-radius: 20px;
   text-align: center;
@@ -139,9 +139,9 @@ header .btn {
   content: '성장이 빠른';
   position: absolute;
   font-family: 'Noto Sans KR', sans-serif;
-  color: #FF6969;
+  color: #ff6969;
   overflow: hidden;
-  border-right: 1px solid #A6D0DD;
+  border-right: 1px solid #a6d0dd;
   animation: typing 4s steps(50) infinite;
 }
 
@@ -159,7 +159,7 @@ header .btn {
 
 .main .main-left > a {
   font-size: 2rem;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 .main .main-right {
@@ -210,7 +210,8 @@ header .btn {
 .mySwiper .swiper-slide > .txt-box {
   font-family: 'Noto Sans KR', sans-serif;
   position: absolute;
-  top: 620px;
+  top: 700px;
+  margin: auto;
 }
 
 .mySwiper .swiper-slide > .txt-box > p {
@@ -261,7 +262,7 @@ header .btn {
   /* border-bottom: 1px solid #222; */
   border: 1px solid #222;
   width: 35%;
-  margin-left : 100px;
+  margin-left: 100px;
   margin-top: 100px;
   line-height: 2;
   text-align: center;
@@ -295,13 +296,13 @@ footer {
 
 footer > h1 > span {
   text-transform: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-left: 50px;
   transition: 0.4s;
 }
 
 footer > h1 > span:hover {
-  color: #FF6969;
+  color: #ff6969;
 }
 
 footer .footer-wrapper {
@@ -329,7 +330,7 @@ footer .footer-wrapper .footer-left > ul > li > a {
 }
 
 footer .footer-wrapper .footer-left > ul > li > a:hover {
-  color: #FF6969;
+  color: #ff6969;
 }
 
 footer .footer-wrapper .footer-right {
@@ -368,4 +369,3 @@ footer .footer-wrapper .footer-right img:hover {
   margin-top: 50px;
 }
 */
-
