@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sum37 project</title>
-    <link rel="stylesheet" href="../../arbor_PortFolio/common/style/minireset.min.css">
+    <link rel="stylesheet" href="./common/style/minireset.min.css">
     <style>
         ::selection {
             background-color: #95bac5;
@@ -38,6 +38,148 @@
 </head>
 
 <body>
+    <!-- header -->
+    <header>
+        <ul>
+            <li>Arborinlove</li>
+            <li>Main</li>
+        </ul>
+    </header>
+
+    <!-- main -->
+    <main>
+        <h1>SUM 37˚ WEB PAGE REDESIGN</h1>
+        <div class="main-wrapper">
+            <img src="./images/sum-pc.png" alt="sum-pc" class="sum-pc">
+            <img src="./images/sum-tablet.png" alt="sum-tablet" class="sum-tablet">
+            <img src="./images/sum-mobile.png" alt="sum-mobile" class="sum-mobile">
+        </div>
+    </main>
+
+    <!-- overview -->
+    <div class="overview">
+        <h2>overview</h2>
+        <div class="overview-txt">
+            <p>프로젝트 목표 : 컨텐츠가 부족한 웹 사이트를 화장품 웹 특징과 맞게 리디자인 및 설계</p>
+            <p>프로젝트 유형 : 웹 사이트 디자인 & 구축</p>
+            <p>프로젝트 기여도 : 개인 프로젝트 (100%)</p>
+            <p>프로젝트 기간 : 2023.06.12 ~ 2023.06.16</p>
+        </div>
+    </div>
+
+    <!-- problem -->
+    <div class="problem">
+        <h2>problem</h2>
+        <div class="problem-txt">
+            <p>컨텐츠가 다양하지 못한 점에서 화장품 웹과 거리가 멀어 보이고,<br>브랜드 특색이 드러나지 않아 리디자인이 필요해 보임</p>
+        </div>
+    </div>
+    
+    <!-- design -->
+    <div class="design">
+        <h2>design</h2>
+        <div class="design-wrapper">
+            <div class="design-1">
+                <h3>keyword</h3>
+                <p>#심플한</p>
+                <p>#모던한</p>
+            </div>
+
+            <div class="design-2">
+                <h3>color</h3>
+                <div class="color">
+                    <div class="color-wrapper">
+                        <div class="color1">1</div>
+                        <div class="color2">2</div>
+                        <div class="color3">3</div>
+                    </div>
+                    <div class="color-txt">
+                        <p>#fff</p>
+                        <p>#eee</p>
+                        <p>#222</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="design-3">
+                <h3>typography</h3>
+                <div class="tp-txt">
+                    <div class="tp-txt-1">
+                        <p>pretendard</p>
+                        <p>light</p>
+                        <p>16px</p>
+                    </div>
+                    <div class="tp-txt-2">
+                        <p>pretendard</p>
+                        <p>regular</p>
+                        <p>20px</p>
+                    </div>
+                    <div class="tp-txt-3">
+                        <p>pretendard</p>
+                        <p>medium</p>
+                        <p>24px</p>
+                    </div>
+                    <div class="tp-txt-4">
+                        <p>pretendard</p>
+                        <p>bold</p>
+                        <p>28px</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- publishing -->
+    <div class="publishing">
+        <h2>publishing</h2>
+        <div class="pb-tag">
+            <p>반응형</p>
+            <p>JavaScript</p>
+            <p>CSS</p>
+        </div>
+        <div class="pb-txt">
+            <p>- Flex와 Grid를 이용해 레이아웃을 제작함</p>
+            <p>- Swiper를 이용해 자동 슬라이드를 구현함</p>
+            <p>- 자바 스크립트를 이용해 슬라이드와 같은 다양한 움직임이 있는 웹 페이지를 구현함</p>
+            <p>- 주로 페이지의 디자인을 설계하는 작업을 함, 미디어 쿼리를 이용해 반응형 웹 페이지를 제작함</p>
+        </div>
+    </div>
+
+    <!-- responsive -->
+    <div class="responsive">
+        <div class="rps-txt">
+            <p>mobile : 480px</p>
+            <p>tablet : 768px</p>
+            <p>pc : 1920px</p>
+        </div>
+    </div>
+
+    <!-- problem-solving -->
+    <div class="problem-solving">
+        <h2>problem-solving</h2>
+        <div class="ps1">
+            <h3>모바일 hover 값 제어</h3>
+            <p>모바일에서는 적용되지 않는 hover 값을 빼고, 태블릿과 pc에서만 적용할 수 있게 수정하였다.</p>
+        </div>
+        <div class="ps2">
+            <h3>저화질 이미지</h3>
+            <p>웹 페이지에 이용할 고화질 이미지를 찾는 데에 어려움이 있었다. 기존 사이트 이미지들은 크기가 작아서 크게 늘렸을 경우 이미지가 깨져서 보임. 이를 해결하기 위해 공식 sns를 통해 이미지를 찾고, 포토샵을 이용해 편집하여 이용했다.</p>
+        </div>
+        <div class="ps3">
+            <h3>화면 크기에 따른 박스 안 컨텐츠 사이즈 오류</h3>
+            <p>박스 안 컨텐츠 양을 줄이거나 사이즈가 화면에 따라 변할 수 있게 %나 vw단위로 값을 설정했다.</p>
+        </div>
+    </div>
+
+    <!-- review -->
+    <div class="review">
+        <h2>review</h2>
+        <div class="review-txt">
+            <p>디자인부터 퍼블리싱까지 직접 제작한 첫 프로젝트이다. 미디어 쿼리를 사용해 반응형 웹으로 제작하려고 하다 보니 다양한 부분에서 신경 써야 할 것들이 많았다. vw 값을 이용하여 사용자마다 다른 디바이스를 사용하는 것을 고려해 제작하는 데에 많은 노력을 했다.</p>
+            <p>HTML과 CSS 작업은 어느 정도 다룰 수 있어서 레이아웃이나 다양한 효과들을 수월하게 작업할 수 있었다. 이 프로젝트 이후에 JavaScript를 배우고 나중에 적용 시켜서 보니 더 웹에 가까워진 것 같고 작업물을 보며 뿌듯하다.</p>
+            <p>반응형을 제작할 때 모든 디바이스에 어떻게 보여져야 할지 많은 고민을 했고, 수업한 내용을 복습하거나 구글링을 하여 해결해 나갔다. 이번 프로젝트를 통해 실력을 많이 늘리게 되었고 어떤 방향으로 웹을 제작해야 하는지 알게 되었다.</p>
+        </div>
+    </div>
 </body>
 
 </html>
