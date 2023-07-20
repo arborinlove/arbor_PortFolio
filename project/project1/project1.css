@@ -195,10 +195,10 @@ header .mt-menu .header_glass__icon img {
   padding: 5px 10px;
   transition: 0.4s;
 }
-.best_seller_m__txt a:hover {
+/* .best_seller_m__txt a:hover {
   background-color: #222;
   color: #fff;
-}
+} */
 .best_seller_t {
   display: none;
 }
@@ -293,10 +293,10 @@ header .mt-menu .header_glass__icon img {
   padding: 5px 10px;
   transition: 0.4s;
 }
-.media_m .media_txt_share a:hover {
+/* .media_m .media_txt_share a:hover {
   background-color: #222;
   color: #fff;
-}
+} */
 
 /***** with sum 37˚ *****/
 .sum_slide_t {
@@ -309,8 +309,6 @@ header .mt-menu .header_glass__icon img {
   display: block;
 }
 /***** footer *****/
-footer {
-}
 footer .footer_info__pc {
   display: none;
 }
