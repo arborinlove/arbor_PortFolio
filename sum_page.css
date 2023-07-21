@@ -1,0 +1,272 @@
+@charset "utf-8";
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans KR', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+::selection {
+  background-color: #95bac5;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #a6d0dd;
+  color: #222;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* header */
+header {
+  width: 100%;
+  height: 50px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+header ul > li:first-child {
+  font-size: 22px;
+  margin-left: 50px;
+}
+
+header ul > li:last-child {
+  font-size: 22px;
+  margin-right: 50px;
+}
+
+h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+  text-align: center;
+  width: 1600px;
+  margin: auto;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #000;
+}
+
+/* main */
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+main h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 80px 0 80px;
+}
+
+main .main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+main .main-wrapper .sum-pc {
+  width: 750px;
+}
+
+main .main-wrapper .sum-tablet {
+  width: 250px;
+}
+
+main .main-wrapper .sum-mobile {
+  width: 150px;
+}
+
+/* overview */
+.overview {
+  width: 100%;
+  height: 80vh;
+}
+
+.overview .overview-txt {
+  font-size: 22px;
+  text-align: left;
+  width: 900px;
+  height: 150px;
+  margin: 50px auto;
+  line-height: 3;
+}
+
+/* problem */
+.problem {
+  width: 100%;
+  height: 80vh;
+}
+
+.problem .problem-txt {
+  font-size: 22px;
+  text-align: center;
+  line-height: 3;
+  margin-top: 50px;
+}
+
+.design {
+  width: 100%;
+  height: 90vh;
+}
+
+.design .design-wrapper {
+}
+
+.design .design-wrapper .design-1 {
+  margin-top: 50px;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 230px;
+}
+
+.design .design-wrapper h3 {
+  margin-left: -400px;
+}
+
+.design .design-wrapper .design-2 {
+  margin-top: 50px;
+}
+
+.design .design-wrapper .design-2 h3 {
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  width: 60px;
+  margin-left: 395px;
+  text-align: left;
+}
+
+.design .design-wrapper .design-2 .color .color-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.design .design-wrapper .design-2 .color .color-wrapper .color1 {
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  text-indent: -9999px;
+}
+
+.design .design-wrapper .design-2 .color .color-wrapper .color2 {
+  background-color: #eee;
+  width: 100px;
+  height: 100px;
+  text-indent: -9999px;
+}
+
+.design .design-wrapper .design-2 .color .color-wrapper .color3 {
+  background-color: #222;
+  width: 100px;
+  height: 100px;
+  text-indent: -9999px;
+}
+
+.design .design-wrapper .design-2 .color .color-txt {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 220px;
+  margin-top: 10px;
+}
+
+.design .design-wrapper .design-3 {
+  margin-top: 50px;
+}
+
+.design .design-wrapper .design-3 h3 {
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  width: 125px;
+  margin-left: 400px;
+  text-align: left;
+}
+
+.design .design-wrapper .design-3 > .tp-txt {
+  margin-top: 60px;
+}
+
+.design .design-wrapper .design-3 > .tp-txt > .tp-txt-1 {
+  font-family: 'pretendard', sans-serif;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-left: 650px;
+}
+
+.design .design-wrapper .design-3 > .tp-txt > .tp-txt-2 {
+  font-family: 'pretendard', sans-serif;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin-left: 650px;
+}
+
+.design .design-wrapper .design-3 > .tp-txt > .tp-txt-3 {
+  font-family: 'pretendard', sans-serif;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-left: 650px;
+}
+
+.design .design-wrapper .design-3 > .tp-txt > .tp-txt-4 {
+  font-family: 'pretendard', sans-serif;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin-left: 650px;
+}
+
+/* publishing */
+.publishing {
+  width: 100%;
+  height: 100vh;
+}
+
+.publishing .publishing-tag {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  margin-top: 50px;
+}
+
+.publishing .publishing-txt {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 3;
+  margin-top: 50px;
+}
