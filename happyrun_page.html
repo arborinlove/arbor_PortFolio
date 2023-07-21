@@ -7,44 +7,20 @@
     <title>happyrun project</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="./common/favicon.ico/favicon.ico" type="image/x-icon">
-    <style>
-        ::selection {
-            background-color: #95bac5;
-            color: #fff;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        html {
-            background-color: #A6D0DD;
-            color: #222;
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: 'Montserrat', sans-serif;
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
-        }
-
-        body::-webkit-scrollbar {
-            display: none;
-        }
-    </style>
+    <!-- reset -->
+    <link rel="stylesheet" href="./common/style/minireset.min.css">
+    <!-- 내가 작성한 css -->
+    <link rel="stylesheet" href="./happyrun_page.css">
 </head>
 
 <body>
     <!-- header -->
     <header>
         <ul>
-            <li>Arborinlove</li>
-            <li>Main</li>
+            <li><a href="./index.html">Arborinlove</a></li>
+            <li><a href="./index.html">Main</a></li>
         </ul>
+        <a href="#" class="btn">TOP</a>
     </header>
 
     <!-- main -->
@@ -55,8 +31,8 @@
                 <div class="main-happyrun">
                     happyrun
                 </div>
-                <h3>period : 2023.04.24 ~ 2023.06.01</h3>
-                <h3>team project (4 members)</h3>
+                <h3>Period : 2023.04.24 ~ 2023.06.01</h3>
+                <h3>Team Project (4 members)</h3>
                 <p>목표 설정 · 타이머 · 기록 저장 · 음성 안내 기능이 있는 달리기 기록 어플</p>
             </div>
             <div class="main-img">
@@ -87,7 +63,9 @@
     <div class="problem">
         <h2>problem</h2>
         <div class="problem-txt">
-            작은 텍스트와 한 곳으로 몰려있는 버튼. 직관적이지 않고 자세히 봐야 하는 UI·UX 불편한 인터페이스 등 사용자들이 불편함을 느낄 소지가 다수 발견되어 선정
+           <p>작은 텍스트와 한 곳으로 몰려있는 버튼.</p>
+           <p>직관적이지 않고 자세히 봐야 하는 UI·UX</p>
+           <p>불편한 인터페이스 등 사용자들이 불편함을 느낄 소지가 다수 발견되어 선정</p>
         </div>
         <div class="problem-img">
             <div class="pb-1">
@@ -105,6 +83,89 @@
     <!-- swot -->
     <div class="swot">
         <h2>swot 분석</h2>
+        <div class="swot-img">
+            <img src="./images/swot-img.png" alt="swot">
+        </div>
+    </div>
+
+    <div class="asistobe">
+        <div class="asistobe-img">
+            <img src="./images/happyrun-asistobe.png" alt="asistobe">
+        </div>
+    </div>
+
+
+    <!-- ux vision -->
+    <div class="ux-vision">
+        <h2>UX Vision</h2>
+        <div class="ux-vision-txt">
+            <p><span>직관적인 디자인</span><br><span>편리한 사용</span>과 <span>기록 기능</span>에 집중함</p>
+        </div>
+    </div>
+
+    <!-- style guide -->
+    <div class="style-guide">
+        <h2>style guide</h2>
+        <div class="style-guide-img">
+            <img src="./images/happyrun-style-guide.png" alt="style-guide">
+        </div>
+    </div>
+
+    <!-- wireframe -->
+    <div class="wireframe">
+        <h2>wireframe</h2>
+        <div class="wireframe-img">
+            <img src="./images/happyrun-Wireframe.png" alt="wireframe">
+        </div>
+    </div>
+
+    <!-- prototype -->
+    <div class="prototype">
+        <h2>prototype</h2>
+        <div class="prototype-img">
+            <img src="./images/happyrun-prototype1.png" alt="prototype1">
+            <img src="./images/happyrun-prototype2.png" alt="prototype2">
+            <img src="./images/happyrun-prototype3.png" alt="prototype3">
+            <img src="./images/happyrun-prototype4.png" alt="prototype4">
+        </div>
+        <div class="prototype-txt">
+            <p>시작 페이지</p>
+            <p>운동 페이지</p>
+            <p>기록 페이지</p>
+            <p>설정 페이지</p>
+        </div>
+    </div>
+
+    <!-- 배운 점 -->
+    <div class="learn">
+        <h2>배운 점</h2>
+        <div class="learn-txt">
+            <p>팀원들과 소통하며 다양한 의견을 제시함</p>
+            <p>팀원 내 응원을 맡고 있어서 팀원들이 힘들어 보일 때 분위기를 띄어 활기를 불어넣음</p>
+        </div>
+    </div>
+
+    <!-- 부족한 점 -->
+    <div class="lacking">
+        <h2>부족한 점</h2>
+        <div class="lacking-txt">
+            <p>디자인 감각이 부족해서 예쁜 테마와 아이콘을 제작하는 데에 어려움을 느낌</p>
+            <p>Figma를 다루는 실력이 능숙하지 않았음</p>
+        </div>
+    </div>
+
+    <!-- review -->
+    <div class="review">
+        <h2>review</h2>
+        <div class="review-txt">
+            <p>팀 프로젝트 작업이 처음이라 디자인 적인 감각이 부족한 점이 있었지만, 팀원들과 함께 작업하면서 배울 점이 많아 큰 도움이 되었다. 어려운 부분을 서로 도와주며 작업을 하다 보니 더 좋은 결과물이 나왔던 것 같다.</p>
+        </div>
+    </div>
+
+    <div class="site">
+        <div class="site-btn">
+            <a href="https://drive.google.com/file/d/1Cl0_fCQ7VcFxxPMbc9km-favilElI1t_/view?usp=sharing" target="_blank">발표 PPT 보기</a>
+        </div>
     </div>
 </body>
 
