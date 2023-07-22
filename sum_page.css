@@ -330,6 +330,7 @@ main .main-wrapper .sum-mobile {
   width: 600px;
   margin: 50px auto;
   text-align: center;
+  line-height: 2;
 }
 
 .problem-solving .problem-solving-txt > h3 {
