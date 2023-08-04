@@ -86,7 +86,7 @@ main {
 }
 
 main h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   text-align: center;
   margin: 80px 0 80px;
 }
@@ -113,7 +113,7 @@ main .main-wrapper .sum-mobile {
 /* overview */
 .overview {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
 }
 
 .overview .overview-txt {
