@@ -1,9 +1,11 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
 
 ::selection {
-  background-color: #95bac5;
+  background-color: #749BC2;
   color: #fff;
 }
 
@@ -12,13 +14,14 @@
 }
 
 html {
-  background-color: #a6d0dd;
+  /* background-color: #a6d0dd; */
+  background-color: #f7f7f7;
   color: #222;
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Wendy One', sans-serif;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -97,13 +100,13 @@ header .header-right > li > a {
 }
 
 header .header-right > li > a:hover {
-  color: #ff6969;
+  color: #749BC2;
 }
 
 header .btn {
   width: 100px;
   height: 50px;
-  background-color: #ff6969;
+  background-color: #749BC2;
   color: #222;
   border-radius: 20px;
   text-align: center;
@@ -134,11 +137,12 @@ header .btn {
 
 .main .main-left > p {
   font-size: 3.8rem;
-  font-family: 'Noto Sans KR', sans-serif;
+  /* font-family: 'Noto Sans KR', sans-serif; */
+  font-family: 'pretendard', sans-serif;
 }
 
 .main .main-left > p > span {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'pretendard', sans-serif;
   font-size: 3.8rem;
   white-space: nowrap;
   color: transparent;
@@ -148,10 +152,10 @@ header .btn {
 .main .main-left > p > span::before {
   content: '성장이 빠른';
   position: absolute;
-  font-family: 'Noto Sans KR', sans-serif;
-  color: #ff6969;
+  font-family: 'pretendard', sans-serif;
+  color: #749BC2;
   overflow: hidden;
-  border-right: 1px solid #a6d0dd;
+  border-right: 1px solid #749BC2;
   animation: typing 4s steps(50) infinite;
 }
 
@@ -185,8 +189,12 @@ header .btn {
   }
 }
 
-.main .main-right > img {
+.main .main-right .me {
   width: 500px;
+}
+
+.main .main-right .star {
+  width: 80px;
 }
 
 /* contents */
@@ -218,7 +226,7 @@ header .btn {
 }
 
 .mySwiper .swiper-slide > .txt-box {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'pretendard', sans-serif;
   position: absolute;
   top: 700px;
   margin: auto;
