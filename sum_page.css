@@ -14,13 +14,13 @@ font-family: 'Noto Sans KR', sans-serif; */
 }
 
 html {
-  background-color: #a6d0dd;
+  background-color: #f7f7f7;
   color: #222;
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'pretendard', sans-serif;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -56,19 +56,19 @@ header ul {
 }
 
 header ul > li:first-child {
-  font-size: 22px;
+  font-size: 1.6rem;
   margin-left: 50px;
 }
 
 header ul > li:last-child {
-  font-size: 22px;
+  font-size: 1.6rem;
   margin-right: 50px;
 }
 
 header .btn {
   width: 100px;
   height: 50px;
-  background-color: #ff6969;
+  background-color: #749BC2;
   color: #222;
   border-radius: 20px;
   text-align: center;
@@ -117,7 +117,6 @@ main .main-wrapper .sum-mobile {
 }
 
 .overview .overview-txt {
-  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 300;
   font-size: 1.4rem;
   text-align: left;
@@ -134,7 +133,6 @@ main .main-wrapper .sum-mobile {
 }
 
 .problem .problem-txt {
-  font-family: 'Noto Sans KR', sans-serif;
   font-size: 1.4rem;
   font-weight: 300;
   text-align: center;
@@ -288,12 +286,10 @@ main .main-wrapper .sum-mobile {
 }
 
 .publishing .publishing-tag > p:first-child {
-  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 300;  
 }
 
 .publishing .publishing-txt {
-  font-family: 'Noto Sans KR', sans-serif;
   font-size: 1.2rem;
   font-weight: 300;
   text-align: center;
@@ -324,7 +320,6 @@ main .main-wrapper .sum-mobile {
 }
 
 .problem-solving .problem-solving-txt {
-  font-family: 'Noto Sans KR', sans-serif;
   font-size: 1.4rem;
   font-weight: 300;
   width: 600px;
@@ -355,7 +350,6 @@ main .main-wrapper .sum-mobile {
 }
 
 .review .review-txt .review-txt-share > p {
-  font-family: 'Noto Sans KR', sans-serif;
   font-size: 1.4rem;
   font-weight: 300;
   width: 600px;
@@ -370,12 +364,11 @@ main .main-wrapper .sum-mobile {
 .site .site-btn {
   width: 240px;
   height: 80px;
-  background-color: #ff6969;
+  background-color: #749BC2;
   color: #222;
   border-radius: 30px;
   text-align: center;
   line-height: 80px;
-  font-family: 'Noto Sans KR', sans-serif;
   font-size: 1.2rem;
   font-weight: 300;
   margin: auto;
