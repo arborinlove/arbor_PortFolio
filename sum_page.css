@@ -5,7 +5,7 @@ font-family: 'Noto Sans KR', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 ::selection {
-  background-color: #95bac5;
+  background-color: #749BC2;
   color: #fff;
 }
 
@@ -14,7 +14,7 @@ font-family: 'Noto Sans KR', sans-serif; */
 }
 
 html {
-  background-color: #f7f7f7;
+  background-color: #f1f1f1f1;
   color: #222;
   scroll-behavior: smooth;
 }
@@ -26,6 +26,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-size: 1.4rem;
 }
 
 body::-webkit-scrollbar {
@@ -33,7 +34,7 @@ body::-webkit-scrollbar {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 2.5rem;
   text-transform: capitalize;
   text-align: center;
   width: 1600px;
@@ -45,24 +46,24 @@ h2 {
 /* header */
 header {
   width: 100%;
-  height: 50px;
+  height: 70px;
+  padding: 20px;
 }
 
 header ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 50px;
 }
 
 header ul > li:first-child {
   font-size: 1.6rem;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 header ul > li:last-child {
   font-size: 1.6rem;
-  margin-right: 50px;
+  margin-right: 20px;
 }
 
 header .btn {
@@ -118,7 +119,6 @@ main .main-wrapper .sum-mobile {
 
 .overview .overview-txt {
   font-weight: 300;
-  font-size: 1.4rem;
   text-align: left;
   width: 900px;
   height: 300px;
@@ -133,7 +133,6 @@ main .main-wrapper .sum-mobile {
 }
 
 .problem .problem-txt {
-  font-size: 1.4rem;
   font-weight: 300;
   text-align: center;
   line-height: 3;
@@ -143,13 +142,16 @@ main .main-wrapper .sum-mobile {
 /* design */
 .design {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 
-/* .design .design-wrapper .design-1 {
-  margin-top: 50px;
+.design .design-wrapper {
+  margin: 100px auto;
+
+}
+
+.design .design-wrapper .design-1 {
   text-transform: capitalize;
-  font-size: 1.4rem;
   text-align: left;
   display: flex;
   justify-content: center;
@@ -157,27 +159,20 @@ main .main-wrapper .sum-mobile {
   gap: 230px;
 }
 
-.design .design-wrapper h3 {
-  margin-left: -400px;
-}
-
 .design .design-wrapper .design-2 {
-  margin-top: 50px;
-}
-
-.design .design-wrapper .design-2 h3 {
-  text-transform: capitalize;
-  font-size: 1.4rem;
-  width: 60px;
-  margin-left: 395px;
-  text-align: left;
+  margin-top: 100px;
 }
 
 .design .design-wrapper .design-2 .color .color-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 150px;
+  gap: 60px;
+}
+
+.design .design-wrapper .design-2 .color .color-wrapper h3 {
+  text-transform: capitalize;
+  margin-right: 150px;
 }
 
 .design .design-wrapper .design-2 .color .color-wrapper .color1 {
@@ -202,13 +197,13 @@ main .main-wrapper .sum-mobile {
 }
 
 .design .design-wrapper .design-2 .color .color-txt {
-  font-size: 1.1rem;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 220px;
+  gap: 110px;
   margin-top: 10px;
+  margin-left: 260px;
 }
 
 .design .design-wrapper .design-3 {
@@ -217,56 +212,45 @@ main .main-wrapper .sum-mobile {
 
 .design .design-wrapper .design-3 h3 {
   text-transform: capitalize;
-  font-size: 1.4rem;
   width: 125px;
-  margin-left: 400px;
-  text-align: left;
+  margin-left: 620px;
 }
 
 .design .design-wrapper .design-3 > .tp-txt {
-  margin-top: 60px;
+  margin: 50px 0 0 250px;
+  line-height: 2;
 }
 
-.design .design-wrapper .design-3 > .tp-txt > .tp-txt-1 {
-  font-family: 'pretendard', sans-serif;
-  font-size: 16px;
+.design .design-wrapper .design-3 > .tp-txt > .tp-1 {
+  font-size: 1rem;
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 100px;
-  margin-left: 650px;
 }
 
-.design .design-wrapper .design-3 > .tp-txt > .tp-txt-2 {
-  font-family: 'pretendard', sans-serif;
-  font-size: 20px;
+.design .design-wrapper .design-3 > .tp-txt > .tp-2 {
+  font-size: 1.25rem;
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 80px;
-  margin-left: 650px;
 }
 
-.design .design-wrapper .design-3 > .tp-txt > .tp-txt-3 {
-  font-family: 'pretendard', sans-serif;
-  font-size: 24px;
+.design .design-wrapper .design-3 > .tp-txt > .tp-3 {
+  font-size: 1.5rem;
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 60px;
-  margin-left: 650px;
 }
 
-.design .design-wrapper .design-3 > .tp-txt > .tp-txt-4 {
-  font-family: 'pretendard', sans-serif;
-  font-size: 28px;
+.design .design-wrapper .design-3 > .tp-txt > .tp-4 {
+  font-size: 1.75rem;
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 70px;
-  margin-left: 650px;
-} */
-
-.design .design-img > img {
-  display: block;
-  margin: 100px auto 0;
-  width: 550px;
 }
 
 /* publishing */
@@ -277,34 +261,27 @@ main .main-wrapper .sum-mobile {
 
 .publishing .publishing-tag {
   font-weight: 400;
-  font-size: 1.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 150px;
-  margin-top: 50px;
-}
-
-.publishing .publishing-tag > p:first-child {
-  font-weight: 300;  
+  margin-top: 100px;
 }
 
 .publishing .publishing-txt {
-  font-size: 1.2rem;
   font-weight: 300;
   text-align: center;
   line-height: 3;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 /* responsive */
 .responsive {
   width: 100%;
-  height: 100vh;
+  height: 60vh;
 }
 .responsive .responsive-txt {
-  font-size: 1.4rem;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -320,17 +297,15 @@ main .main-wrapper .sum-mobile {
 }
 
 .problem-solving .problem-solving-txt {
-  font-size: 1.4rem;
   font-weight: 300;
-  width: 600px;
+  width: 570px;
   margin: 50px auto;
   text-align: center;
   line-height: 2;
 }
 
 .problem-solving .problem-solving-txt > h3 {
-  font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 500;
   text-align: center;
   line-height: 2.5;
 }
@@ -350,9 +325,8 @@ main .main-wrapper .sum-mobile {
 }
 
 .review .review-txt .review-txt-share > p {
-  font-size: 1.4rem;
   font-weight: 300;
-  width: 600px;
+  width: 620px;
   margin: auto;
   line-height: 2;
 }
@@ -369,7 +343,6 @@ main .main-wrapper .sum-mobile {
   border-radius: 30px;
   text-align: center;
   line-height: 80px;
-  font-size: 1.2rem;
   font-weight: 300;
   margin: auto;
 }

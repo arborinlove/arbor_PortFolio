@@ -14,8 +14,7 @@
 }
 
 html {
-  /* background-color: #a6d0dd; */
-  background-color: #f7f7f7;
+  background-color: #f1f1f1f1;
   color: #222;
   scroll-behavior: smooth;
 }
@@ -310,7 +309,7 @@ header .btn {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .about-me .ama .about-left {
