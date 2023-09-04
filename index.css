@@ -86,7 +86,7 @@ h1 > img {
 }
 
 .start header .header-wrapper .header-right {
-  display: none;
+  /* display: none; */
 }
 
 header .btn {
@@ -117,7 +117,7 @@ header .btn {
 }
 
 .main .main-left > h2 {
-  font-size: 2.6rem;
+  font-size: 5rem;
   font-weight: 600;
 }
 
@@ -228,4 +228,32 @@ header .btn {
   right: 70%;
   font-size: 1.5rem;
   color: #222;
+}
+
+/* about me */
+.about-me .about-left > img {
+  width: 250px;
+  margin: 50px auto;
+}
+
+.about-me .about-left > h2 {
+  width: 53%;
+  margin: auto;
+  text-align: center;
+}
+
+.about-me .about-right > .name > img {
+  width: 100px;
+}
+
+.about-me .about-right > .age > img {
+  width: 100px;
+}
+
+.about-me .about-right > .email > img {
+  width: 100px;
+}
+
+.about-me .about-right > .career > img {
+  width: 100px;
 }
