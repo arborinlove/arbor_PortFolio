@@ -120,12 +120,12 @@ h1 > img {
 }
 
 .start2 .main .main-box > h2 {
-  font-size: 6rem;
+  font-size: 7rem;
   font-weight: 600;
 }
 
 .start2 .main .main-box > h3 {
-  font-size: 3.5rem;
+  font-size: 3.6rem;
   font-weight: 400;
 }
 
@@ -134,11 +134,11 @@ h1 > img {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  font-size: 1.6rem;
+  font-size: 3.6rem;
 }
 
 .text {
-  font-size: 1.6rem;
+  font-size: 3.6rem;
   color: #749BC2;
 }
 
@@ -154,7 +154,7 @@ h1 > img {
 }
 
 .start2 .main .main-box > a {
-  font-size: 1.3rem;
+  font-size: 2.6rem;
   text-decoration: underline;
 }
 
