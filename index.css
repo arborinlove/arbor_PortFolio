@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+/* font-family: 'Montserrat', sans-serif; */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
 
 ::selection {
@@ -12,6 +14,7 @@
 }
 
 html {
+  background-color: #E5EEF8;
   background-color: #E9F0F8;
   color: #222;
   scroll-behavior: smooth;
@@ -32,21 +35,22 @@ body::-webkit-scrollbar {
 
 h1 {
   text-transform: capitalize;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 600;
   color: #222;
-  width: 95%;
+  width: 90%;
   margin: auto;
-  line-height: 2;
-  border-bottom: 1px solid #222;
+  line-height: 3;
+  border-bottom: 2px solid #222;
   position: relative;
 }
 
 h1 > img {
-  width: 65px;
-  height: 50px;
+  width: 90px;
+  height: 70px;
   position: absolute;
-  top: -3px;
+  top: -12px;
+  left: -50px;
   animation: cloud 4s infinite;
 }
 
@@ -62,70 +66,93 @@ h1 > img {
   }
 }
 
+.start1 {
+  display: block;
+  width: 100%;
+  height: 100vh;
+}
+
 .emoji {
   position: fixed;
   top: 10px;
   left: 10px;
   font-size: 3rem;
   text-align: center;
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
   z-index: 101;
   cursor: pointer;
   will-change: transform;
 }
 
-/* header */
-.start1 {
+.start2 {
   display: none;
 }
 
-.start2 {
-  display: block;
-  width: 100%;
-  height: 100vh;
+/* header */
+.start1 header .header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
-.start2 header {
-  text-transform: capitalize;
-  font-size: 1.4rem;
-  margin: 10px 0 0 10px;
+.start1 header .header-left {
+  margin-left: 20px;
+  font-size: 1.6rem;
 }
 
-.start2 header .btn {
-  width: 80px;
-  height: 40px;
+.start1 header .header-right {
+  display: flex;
+  gap: 50px;
+  margin-right: 20px;
+}
+
+.start1 header .header-right > li > a {
+  font-size: 1.6rem;
+  transition: 0.4s;
+}
+
+.start1 header .header-right > li > a:hover {
+  color: #749BC2;
+}
+
+.start1 header .btn {
+  width: 100px;
+  height: 50px;
   background-color: #749BC2;
   color: #222;
   border-radius: 20px;
   text-align: center;
-  line-height: 40px;
-  font-size: 1rem;
+  line-height: 50px;
+  font-size: 1.1rem;
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 30px;
   z-index: 100;
 }
 
 /* main */
-.start2 .main {
+.start1 .main {
   width: 100%;
-  height: 90%;
-  display: grid;
-  place-items: center;
+  height: 85%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
 }
 
-.start2 .main .main-box {
-  line-height: 1.5;
+.start1 .main .main-left {
+  line-height: 1.3;
 }
 
-.start2 .main .main-box > h2 {
-  font-size: 7rem;
+.start1 .main .main-left > h2 {
+  font-size: 5rem;
   font-weight: 600;
 }
 
-.start2 .main .main-box > h3 {
-  font-size: 3.6rem;
+.start1 .main .main-left > h3 {
+  font-size: 3.8rem;
   font-weight: 400;
 }
 
@@ -134,11 +161,11 @@ h1 > img {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  font-size: 3.6rem;
+  font-size: 3.8rem;
 }
 
 .text {
-  font-size: 3.6rem;
+  font-size: 3.8rem;
   color: #749BC2;
 }
 
@@ -153,15 +180,70 @@ h1 > img {
   to { border-right: 2px solid #222; }
 }
 
-.start2 .main .main-box > a {
-  font-size: 2.6rem;
+.start1 .main .main-left > a {
+  font-size: 2rem;
   text-decoration: underline;
+  margin-left: 5px;
+}
+
+.start1 .main .main-right .me {
+  animation: itsme 4s infinite;
+  width: 500px;
+}
+
+@keyframes itsme {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translateY(1vw);
+  }
+}
+
+.start1 .main .main-right .star1 {
+  position: absolute;
+  top: 300px;
+  right: 220px;
+  width: 50px;
+  animation: star1 4s infinite;
+}
+
+@keyframes star1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5vw);
+  }
+  100% {
+    transform: translateZ(0);
+  }
+}
+
+.start1 .main .main-right .star2 {
+  position: absolute;
+  top: 200px;
+  right: 600px;
+  width: 50px;
+  animation: star2 4s infinite;
+}
+
+@keyframes star2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(3vw);
+  }
+  100% {
+    transform: translateZ(0);
+  }
 }
 
 /* portfolio */
-/* .mySwiper {
+.mySwiper {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   overflow: hidden;
   position: relative;
 }
@@ -173,32 +255,27 @@ h1 > img {
 
 .mySwiper .swiper-wrapper {
   width: 100%;
-  height: 90%;
+  height: 100%;
   position: relative;
 }
 
 .mySwiper .swiper-slide {
   width: 100%;
-  height: 50%;
+  height: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.mySwiper .swiper-slide > a > img {
-  width: 350px;
-  height: 220px;
-}
-
 .mySwiper .swiper-slide > .txt-box {
   font-family: 'pretendard', sans-serif;
   position: absolute;
-  top: 300px;
+  top: 650px;
   margin: auto;
 }
 
 .mySwiper .swiper-slide > .txt-box > .tag {
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 500;
   line-height: 2.5;
   display: flex;
@@ -208,52 +285,181 @@ h1 > img {
 }
 
 .mySwiper .swiper-slide > .txt-box > h3 {
-  width: 100%;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
 .mySwiper .swiper-button-prev::after {
   position: absolute;
-  top: -320%;
-  left: 70%;
-  font-size: 1.5rem;
+  top: 0;
+  left: 15vw;
+  font-size: 4rem;
   color: #222;
 }
 
 .mySwiper .swiper-button-next::after {
   position: absolute;
-  top: -320%;
-  right: 70%;
-  font-size: 1.5rem;
+  top: 0;
+  right: 15vw;
+  font-size: 4rem;
   color: #222;
 }
-*/
 
 /* about me */
-.about-me .about-left > img {
-  width: 250px;
-  margin: 50px auto;
+.about-me {
+  width: 100%;
+  height: 100vh;
 }
 
-.about-me .about-left > h2 {
-  width: 53%;
-  margin: auto;
+.about-me .ama {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.about-me .ama .about-left {
   text-align: center;
 }
 
-.about-me .about-right > .name > img {
-  width: 100px;
+.about-me .ama .about-left img {
+  width: 350px;
 }
 
-.about-me .about-right > .age > img {
-  width: 100px;
+.about-me .ama .about-left h2 {
+  font-size: 1.6rem;
+  width: 430px;
+  margin: auto;
+  margin-top: 50px;
 }
 
-.about-me .about-right > .email > img {
-  width: 100px;
+.about-me .ama .about-right {
+  margin-top: 70px;
 }
 
-.about-me .about-right > .career > img {
-  width: 100px;
+.about-me .ama .about-right img {
+  margin-left: -50px;
+  width: 30px;
+  height: 30px;
 }
+
+.about-me .ama .about-right h3 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.about-me .ama .about-right h4 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+/* skill */
+.skill {
+  width: 100%;
+  /* height: 100vh; */
+}
+
+.skill h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  /* border-bottom: 1px solid #222; */
+  border: 1px solid #222;
+  width: 35%;
+  margin-left: 100px;
+  margin-top: 100px;
+  line-height: 2;
+  text-align: center;
+}
+
+.skill ul {
+  width: 90%;
+  margin: auto;
+  line-height: 2;
+  padding: 50px 0 0 50px;
+  margin-bottom: 15px;
+}
+
+.skill ul > li {
+  font-size: 1.4rem;
+}
+
+.skill .skills {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+/* get in touch */
+footer {
+  margin-top: 100px;
+  width: 100%;
+  /* height: 100vh; */
+}
+
+footer .footer-wrapper {
+  width: 1600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px auto 50px auto;
+}
+
+footer .footer-wrapper .footer-left > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+footer .footer-wrapper .footer-left > ul > li {
+  font-size: 1.8rem;
+}
+
+footer .footer-wrapper .footer-left > ul > li > a {
+  transition: 0.4s;
+}
+
+footer .footer-wrapper .footer-left > ul > li > a:hover {
+  color: #749BC2;
+}
+
+footer .footer-wrapper .footer-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+footer .footer-wrapper .footer-right img {
+  width: 70px;
+  transition: 0.4s;
+}
+
+footer .footer-wrapper .footer-right img:hover {
+  transform: translateY(-10px);
+}
+
+/*
+.mySwiper {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.mySwiper .swiper-slide {
+  width: 100%;
+  cursor: -webkit-grab;
+}
+
+.mySwiper .swiper-slide img {
+  height: 70%;
+  object-fit: contain;
+  margin: auto;
+  margin-top: 50px;
+}
+*/
