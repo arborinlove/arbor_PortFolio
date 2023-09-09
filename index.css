@@ -76,16 +76,21 @@ h1 > img {
 }
 
 /* header */
-.start {
+.start1 {
+  display: none;
+}
+
+.start2 {
+  display: block;
   width: 100%;
   height: 100vh;
 }
 
-.start header .header-wrapper .header-left {
+.start2 header .header-wrapper .header-left {
   font-size: 1.5rem;
 }
 
-.start header .header-wrapper .header-right {
+.start2 header .header-wrapper .header-right {
   /* display: none; */
 }
 

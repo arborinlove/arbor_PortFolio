@@ -66,9 +66,14 @@ h1 > img {
   }
 }
 
-.start {
+.start1 {
+  display: block;
   width: 100%;
   height: 100vh;
+}
+
+.start2 {
+  display: none;
 }
 
 .emoji {
@@ -81,35 +86,34 @@ h1 > img {
   height: 35px;
   z-index: 101;
   cursor: pointer;
-
   will-change: transform;
 }
 
 /* header */
-.start header .header-wrapper {
+.start1 header .header-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
 }
 
-.start header .header-left {
+.start1 header .header-left {
   margin-left: 20px;
   font-size: 1.6rem;
 }
 
-.start header .header-right {
+.start1 header .header-right {
   display: flex;
   gap: 50px;
   margin-right: 20px;
 }
 
-.start header .header-right > li > a {
+.start1 header .header-right > li > a {
   font-size: 1.6rem;
   transition: 0.4s;
 }
 
-.start header .header-right > li > a:hover {
+.start1 header .header-right > li > a:hover {
   color: #749BC2;
 }
 
