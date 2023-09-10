@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+/*
+
 ::selection {
   background-color: #9fc3e7;
   color: #fff;
@@ -74,7 +76,6 @@ h1 > img {
   will-change: transform;
 }
 
-/* header */
 .start1 {
   display: none;
 }
@@ -106,7 +107,6 @@ h1 > img {
   z-index: 100;
 }
 
-/* main */
 .start2 .main {
   width: 100%;
   height: 90%;
@@ -157,8 +157,7 @@ h1 > img {
   text-decoration: underline;
 }
 
-/* portfolio */
-/* .mySwiper {
+.mySwiper {
   width: 100%;
   height: 80vh;
   overflow: hidden;
@@ -227,9 +226,8 @@ h1 > img {
   font-size: 1.5rem;
   color: #222;
 }
-*/
 
-/* about me */
+
 .about-me .about-left > img {
   width: 250px;
   margin: 50px auto;
@@ -256,3 +254,13 @@ h1 > img {
 .about-me .about-right > .career > img {
   width: 100px;
 }
+
+.skill .skills .item > h3 {
+  width: 60%;
+}
+
+.skill .skills .item > ul > li {
+  width: 100%;
+}
+
+*/
