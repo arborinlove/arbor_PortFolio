@@ -238,34 +238,34 @@ h1 > img {
 }
 .m-aboutMe .aboutMe-box > .name {
     margin-top: 6%;
-    line-height: 1.6;
+    line-height: 2;
 }
 
-.m-aboutMe .aboutMe-box > .name > img { width: 5%; }
+.m-aboutMe .aboutMe-box > .name > img { width: 4%; }
 .m-aboutMe .aboutMe-box > .name > h4 { font-weight: 600; }
 
 .m-aboutMe .aboutMe-box > .age {
     margin-top: 6%;
-    line-height: 1.8;
+    line-height: 2;
 }
 
-.m-aboutMe .aboutMe-box > .age > img { width: 5% }
+.m-aboutMe .aboutMe-box > .age > img { width: 4% }
 .m-aboutMe .aboutMe-box > .age > h4 { font-weight: 600; }
 
 .m-aboutMe .aboutMe-box > .email {
     margin-top: 6%;
-    line-height: 1.8;
+    line-height: 2;
 }
 
-.m-aboutMe .aboutMe-box > .email > img { width: 5% }
+.m-aboutMe .aboutMe-box > .email > img { width: 4% }
 .m-aboutMe .aboutMe-box > .email > h4 { font-weight: 600; }
 
 .m-aboutMe .aboutMe-box > .career {
     margin-top: 6%;
-    line-height: 1.8;
+    line-height: 2;
 }
 
-.m-aboutMe .aboutMe-box > .career > img { width: 5% }
+.m-aboutMe .aboutMe-box > .career > img { width: 4% }
 .m-aboutMe .aboutMe-box > .career > h4 { font-weight: 600; }
 
 .tp-aboutMe {

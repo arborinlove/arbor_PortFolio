@@ -78,6 +78,7 @@ const typing = async () => {
   
   // 지우는 효과
   remove();
+
 }
 
 // 글자 지우는 효과
