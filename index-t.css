@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+h1 {
+    font-size: 1.6rem;
+}
+
 .emoji {
     width: 25px;
     height: 25px;
@@ -87,6 +91,8 @@
     font-size: 2.2rem;
 }
 
+/*
+
 .tp-main .main-wrapper .main-box > .typing {
     line-height: 2;
     display: flex;
@@ -110,6 +116,8 @@
     from { border-right: 2px solid #222; }
     to { border-right: 2px solid #222; }
 }
+
+*/
 
 .tp-main .main-wrapper .main-box > a {
     font-size: 1.6rem;
@@ -168,4 +176,130 @@
     100% {
       transform: translateZ(0);
     }
+}
+
+/* portfolio */
+
+.portfolio {
+    width: 100%;
+    height: 90vh;
+}
+
+.mySwiper .swiper-slide > .txt-box > .tag > p {
+    font-size: 1.3rem;
+}
+
+.mySwiper .swiper-slide > .txt-box > h3 {
+    font-size: 1.3rem;
+}
+
+.mySwiper .swiper-button-prev::after {
+    position: absolute;
+    top: -9vw;
+    left: 5vw;
+    font-size: 2rem;
+    color: #222;
+}
+  
+.mySwiper .swiper-button-next::after {
+    position: absolute;
+    top: -9vw;
+    right: 5vw;
+    font-size: 2rem;
+    color: #222;
+}
+
+/* about me */
+
+.m-aboutMe {
+    display: none;
+}
+
+.tp-aboutMe {
+    display: block;
+    width: 100%;
+    height: 80vh;
+}
+
+.tp-aboutMe .tp-aboutMe-wrapper {
+    margin-top: 15vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tp-aboutMe .tp-aboutMe-wrapper .myEp > img {
+    width: 33vw;
+}
+
+.tp-aboutMe .tp-aboutMe-wrapper .myEp > h2 {
+    margin-top: 3vw;
+    width: 33vw;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box {
+    line-height: 2.2;
+}
+
+.tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .name > img { width: 3vw; }
+.tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .age > img { width: 3vw; margin-top: 1vw; }
+.tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .email > img { width: 3vw; margin-top: 1vw; }
+.tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .career > img { width: 3vw; margin-top: 1vw; }
+
+.tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .name > h4 { font-weight: 600; }
+.tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .age > h4 { font-weight: 600; }
+.tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .email > h4 { font-weight: 600; }
+.tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .career > h4 { font-weight: 600; }
+
+/* skill */
+
+.skill {
+    width: 100%;
+    height: 70vh;
+}
+
+.skill-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+}
+
+.skill-box .item > h3 {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #222;
+    transition: 0.4s;
+}
+
+.skill-box .item > h3:hover {
+    border: 1px solid #749BC2;
+    border-radius: 30px;
+    background-color: #749BC2;
+    color: #fff;
+}
+
+.skill-box .item ul {
+    line-height: 2;
+}
+
+/* footer */
+
+footer .footer-box .footer-left {
+    gap: 30px;
+}
+
+footer .footer-box .footer-left > a {
+    font-size: 1.4rem;
+}
+
+footer .footer-box .footer-right {
+    gap: 35px;
+}
+
+footer .footer-box .footer-right > a > img {
+    width: 5vw;
+    height: 5vw;
 }
