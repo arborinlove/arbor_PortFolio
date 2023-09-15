@@ -35,28 +35,6 @@ h1 {
     position: relative;
 }
 
-/*
-h1 > img {
-    width: 60px;
-    height: 42px;
-    position: absolute;
-    top: 13px;
-    left: 155px;
-    animation: cloud 4s infinite;
-}
-  
-@keyframes cloud {
-    0% {
-      transform: rotate(-9deg);
-    }
-    50% {
-      transform: rotateZ(10deg);
-    }
-    100% {
-      transform: rotateZ(-10deg);
-    }
-} */
-
 .emoji {
     position: fixed;
     top: 10px;
@@ -156,7 +134,7 @@ h1 > img {
 .mySwiper {
     width: 100%;
     height: 70vh;
-    /* overflow: hidden; */
+    overflow: hidden;
     position: relative;
 }
 

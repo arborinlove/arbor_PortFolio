@@ -165,6 +165,10 @@ h1 {
     height: 90vh;
 }
 
+.mySwiper .swiper-slide > a > img {
+    width: 70vw;
+}
+
 .mySwiper .swiper-slide > .txt-box > .tag > p {
     font-size: 1.3rem;
 }
