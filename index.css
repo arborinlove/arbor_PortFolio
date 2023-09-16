@@ -175,17 +175,17 @@ h1 {
 
 .mySwiper .swiper-button-prev::after {
     position: absolute;
-    top: -22vw;
-    left: 5vw;
-    font-size: 1.6rem;
+    top: -210%;
+    left: 50%;
+    font-size: 1.4rem;
     color: #222;
 }
   
 .mySwiper .swiper-button-next::after {
     position: absolute;
-    top: -22vw;
-    right: 5vw;
-    font-size: 1.6rem;
+    top: -210%;
+    right: 50%;
+    font-size: 1.4rem;
     color: #222;
 }
 
