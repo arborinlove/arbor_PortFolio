@@ -171,6 +171,7 @@ h1 {
 
 .mySwiper .swiper-slide > .txt-box > .tag > p {
     font-size: 1.3rem;
+    font-weight: 600;
 }
 
 .mySwiper .swiper-slide > .txt-box > h3 {

@@ -170,6 +170,7 @@ h1 {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    font-weight: 600;
 }
 
 .mySwiper .swiper-button-prev::after {
@@ -192,7 +193,7 @@ h1 {
 
 .m-aboutMe {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
 }
 
 .m-aboutMe .aboutMe-box {
@@ -201,7 +202,7 @@ h1 {
 
 .m-aboutMe .aboutMe-box > .myEp {
     margin-top: 5%;
-   line-height: 1.6;
+   line-height: 1.8;
    text-align: center; 
 }
 
@@ -215,32 +216,32 @@ h1 {
     margin-top: 5%;
 }
 .m-aboutMe .aboutMe-box > .name {
-    margin-top: 6%;
-    line-height: 2;
+    margin-top: 5%;
+    line-height: 1.8;
 }
 
 .m-aboutMe .aboutMe-box > .name > img { width: 4%; }
 .m-aboutMe .aboutMe-box > .name > h4 { font-weight: 600; }
 
 .m-aboutMe .aboutMe-box > .age {
-    margin-top: 6%;
-    line-height: 2;
+    margin-top: 5%;
+    line-height: 1.8;
 }
 
 .m-aboutMe .aboutMe-box > .age > img { width: 4% }
 .m-aboutMe .aboutMe-box > .age > h4 { font-weight: 600; }
 
 .m-aboutMe .aboutMe-box > .email {
-    margin-top: 6%;
-    line-height: 2;
+    margin-top: 5%;
+    line-height: 1.8;
 }
 
 .m-aboutMe .aboutMe-box > .email > img { width: 4% }
 .m-aboutMe .aboutMe-box > .email > h4 { font-weight: 600; }
 
 .m-aboutMe .aboutMe-box > .career {
-    margin-top: 6%;
-    line-height: 2;
+    margin-top: 5%;
+    line-height: 1.8;
 }
 
 .m-aboutMe .aboutMe-box > .career > img { width: 4% }
@@ -254,7 +255,7 @@ h1 {
 
 .skill {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
 }
 
 .skill .skill-box {
