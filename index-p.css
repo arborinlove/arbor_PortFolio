@@ -1,12 +1,12 @@
 @charset "utf-8";
 
 h1 {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
 }
 
 .emoji {
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
 }
 
 /* header */
@@ -20,13 +20,13 @@ h1 {
 }
 
 .tp-header .btn {
-    width: 80px;
-    height: 40px;
+    width: 100px;
+    height: 50px;
     background-color: #749BC2;
     border-radius: 20px;
     text-align: center;
-    line-height: 40px;
-    font-size: 1rem;
+    line-height: 50px;
+    font-size: 1.2rem;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -37,21 +37,21 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px 0 20px;
+    padding: 20px 30px 0 30px;
 }
 
 .tp-header .header-box > p {
-    font-size: 1.4rem;
+    font-size: 2.2rem;
     text-transform: capitalize;
 }
 
 .tp-header .header-box .menu-box {
     display: flex;
-    gap: 30px;
+    gap: 50px;
 }
 
 .tp-header .header-box .menu-box li {
-    font-size: 1.2rem;
+    font-size: 2rem;
     transition: 0.4s;
 }
 
@@ -83,29 +83,34 @@ h1 {
 }
 
 .tp-main .main-wrapper .main-box > h2 {
-    font-size: 2.2rem;
+    font-size: 4rem;
     text-transform: uppercase;
 }
 
 .tp-main .main-wrapper .main-box > h3 {
-    font-size: 2.2rem;
+    font-size: 3rem;
 }
 
 .tp-main .main-wrapper .main-box > .typing {
-    font-size: 2.2rem;
+    font-size: 3rem;
 }
   
 .tp-main .main-wrapper .main-box > .text {
-    font-size: 2.2rem;
+    font-size: 3rem;
 }
 
 .tp-main .main-wrapper .main-box > a {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     text-decoration: underline;
+    margin-left: 5px;
+}
+
+.tp-main .main-wrapper .main-img {
+    margin-bottom: 150px;
 }
 
 .tp-main .main-wrapper .main-img > .me {
-    width: 35vw;
+    width: 25vw;
     animation: itsme 4s infinite;
 }
 
@@ -120,9 +125,9 @@ h1 {
 
 .tp-main .main-wrapper .main-img > .star1 {
     position: absolute;
-    bottom: 75vw;
-    right: 32vw;
-    width: 3.5vw;
+    bottom: 38vw;
+    right: 30vw;
+    width: 2vw;
     animation: star1 4s infinite;
 }
 
@@ -140,9 +145,9 @@ h1 {
 
 .tp-main .main-wrapper .main-img > .star2 {
     position: absolute;
-    bottom: 59vw;
-    right: 8vw;
-    width: 3.5vw;
+    bottom: 25vw;
+    right: 13vw;
+    width: 2vw;
     animation: star2 4s infinite;
 }
 
@@ -196,7 +201,7 @@ h1 {
     right: 15vw;
     font-size: 3rem;
     color: #222;
-}
+}  
 
 
 /* about me */
