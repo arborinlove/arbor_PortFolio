@@ -41,7 +41,7 @@ h1 {
 }
 
 .tp-header .header-box > p {
-    font-size: 2.2rem;
+    font-size: 2rem;
     text-transform: capitalize;
 }
 
@@ -217,44 +217,51 @@ h1 {
 }
 
 .tp-aboutMe .tp-aboutMe-wrapper {
-    margin-top: 15vw;
+    margin-top: 5vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+.tp-aboutMe .tp-aboutMe-wrapper .myEp {
+    text-align: center;
+}
+
 .tp-aboutMe .tp-aboutMe-wrapper .myEp > img {
-    width: 33vw;
+    width: 18vw;
 }
 
 .tp-aboutMe .tp-aboutMe-wrapper .myEp > h2 {
     margin-top: 3vw;
-    width: 33vw;
+    width: 24vw;
     text-align: center;
     line-height: 1.6;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box {
     line-height: 2.2;
+    font-size: 1.2rem;
 }
 
-.tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .name > img { width: 3vw; }
+.tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .name > img { width: 1.5vw; }
 .tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .name > h4 { font-weight: 600; }
 
-.tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .age > img { width: 3vw; margin-top: 1vw; }
+.tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .age > img { width: 1.5vw; margin-top: 1.5vw; }
 .tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .age > h4 { font-weight: 600; }
 
-.tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .email > img { width: 3vw; margin-top: 1vw; }
+.tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .email > img { width: 1.5vw; margin-top: 1.5vw; }
 .tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .email > h4 { font-weight: 600; }
 
-.tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .career > img { width: 3vw; margin-top: 1vw; }
+.tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .career > img { width: 1.5vw; margin-top: 1.5vw; }
 .tp-aboutMe .tp-aboutMe-wrapper .aboutMe-box .career > h4 { font-weight: 600; }
 
 /* skill */
 
 .skill {
     width: 100%;
-    height: 70vh;
+    height: 105vh;
 }
 
 .skill-box {
@@ -265,10 +272,11 @@ h1 {
 }
 
 .skill-box .item > h3 {
-    width: 80%;
+    width: 100%;
     margin: auto;
     border: 1px solid #222;
     transition: 0.4s;
+    padding: 10px;
 }
 
 .skill-box .item > h3:hover {
@@ -279,24 +287,30 @@ h1 {
 }
 
 .skill-box .item ul {
-    line-height: 2;
+    line-height: 2.2;
+    font-size: 1.4rem;
 }
 
 /* footer */
 
+footer {
+    width: 100%;
+    height: 40vh;
+}
+
 footer .footer-box .footer-left {
-    gap: 30px;
+    gap: 50px;
 }
 
 footer .footer-box .footer-left > a {
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 
 footer .footer-box .footer-right {
-    gap: 35px;
+    gap: 50px;
 }
 
 footer .footer-box .footer-right > a > img {
-    width: 5vw;
-    height: 5vw;
+    width: 4vw;
+    height: 4vw;
 }
