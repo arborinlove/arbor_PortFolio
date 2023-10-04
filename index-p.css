@@ -41,7 +41,7 @@ h1 {
 }
 
 .tp-header .header-box > p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: capitalize;
 }
 
@@ -51,7 +51,7 @@ h1 {
 }
 
 .tp-header .header-box .menu-box li {
-    font-size: 2rem;
+    font-size: 1.8rem;
     transition: 0.4s;
 }
 
@@ -303,7 +303,7 @@ footer .footer-box .footer-left {
 }
 
 footer .footer-box .footer-left > a {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 footer .footer-box .footer-right {
@@ -311,6 +311,6 @@ footer .footer-box .footer-right {
 }
 
 footer .footer-box .footer-right > a > img {
-    width: 4vw;
-    height: 4vw;
+    width: 3vw;
+    height: 3vw;
 }
