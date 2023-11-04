@@ -154,6 +154,8 @@ body {
 .scroll_on.type_top {transform: translate(0, -50px); font-size: 3rem;}
 
 .skill {
+    width: 100%;
+    height: 60%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -163,5 +165,13 @@ body {
 
 .skill h1 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
+}
+
+.skill .ex {
+    margin-top: 10%;
+}
+
+.skill .ex li {
+    font-size: 1.2rem;
 }
