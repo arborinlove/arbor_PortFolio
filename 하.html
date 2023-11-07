@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+:root {
+  --c-aqua: #00FFDF;
+  --c-blue: #086ACC;
+  --c-dark-blue: #110035;
+  --c-white: #ffffff;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--c-dark-blue);
+}
+
+.splash {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+    
+    span {
+      position: absolute;
+      display: block;
+      top: 50%;
+      left: 50%;
+      border-radius: 100%;
+      border: 1px solid var(--c-blue);
+      height: 120px;
+      width: 120px;
+      transform: translate(-50%, -50%)
+    }
+  }
+}
+
+h1 {
+  position: relative;
+  font-size: 3.5vw;
+  color: var(--c-white);
+  z-index: 2;
+  
+  span {
+    color: var(--c-aqua);
+  }
+}
+    </style>
+</head>
+<body>
+    <section class="splash">
+        <h1>The web is <span>complicated</span>.</h1>
+        <div class="splash__bg">
+          <span class="js-circle"></span>
+          <span class="js-circle"></span>
+          <span class="js-circle"></span>
+          <span class="js-circle"></span>
+          <span class="js-circle"></span>
+          <span class="js-circle"></span>
+          <span class="js-circle"></span>
+          <span class="js-circle"></span>
+        </div>
+      </section>
+
+      <script>
+        const circleEls = document.querySelectorAll('.js-circle')
+        const circleTl = gsap.timeline({repeat: -1, yoyo: true});
+
+        let circleSize = 1;
+        circleEls.forEach(circle => {
+        gsap.set(circle, {scale: circleSize});
+        circleSize+=.5
+    })
+
+    circleTl.from(circleEls, {scale: 1, stagger: .175, duration: .6, ease: Power3.inOut})
+    </script>
+</body>
+</html>
