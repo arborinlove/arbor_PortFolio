@@ -58,6 +58,7 @@ body {
 
 .content {
     background-color: #FDFDFD;
+    background-color: #b5d5ff;
     width: 100%;
 }
 
@@ -68,8 +69,8 @@ body {
 }
 
 .content .main-box img {
-    width: 350px;
-    animation: rotate 6s linear infinite; transform-origin: 50% 50%;
+    width: 300px;
+    /* animation: rotate 6s linear infinite; transform-origin: 50% 50%; */
 }
 
 @keyframes rotate{
