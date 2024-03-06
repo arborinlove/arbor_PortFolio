@@ -4,6 +4,7 @@ html,
 body {
   position: relative;
   height: 100vh;
+  background-image: linear-gradient(-125deg, #058eff, #ff3232, #14f732);
 }
 
 body {
@@ -58,7 +59,8 @@ body {
 
 .content {
     background-color: #FDFDFD;
-    background-color: #b5d5ff;
+    /* background-color: #b5d5ff; */
+    background-image: linear-gradient(-125deg, #058eff, #ff3232, #14f732);
     width: 100%;
 }
 
