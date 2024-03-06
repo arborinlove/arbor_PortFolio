@@ -4,14 +4,15 @@ html,
 body {
   position: relative;
   height: 100vh;
-  background-image: linear-gradient(-125deg, #058eff, #ff3232, #14f732);
+  /* background-image: linear-gradient(-125deg, #058eff, #ff3232, #14f732); */
 }
 
 body {
-  background: #FDFDFD;
+  /* background-color: #FDFDFD; */
+  background-color: #000;
   font-family: 'pretendard', sans-serif;
   font-size: 14px;
-  color: #222;
+  color: #fff;
   margin: 0;
   padding: 0;
 }
@@ -37,7 +38,7 @@ body {
     max-width: 320px;
 
   
-    background-color: #454976;
+    background-color: #444444;
     color: #fff;
 }
 
@@ -58,9 +59,8 @@ body {
 }
 
 .content {
-    background-color: #FDFDFD;
+    background-color: #000;
     /* background-color: #b5d5ff; */
-    background-image: linear-gradient(-125deg, #058eff, #ff3232, #14f732);
     width: 100%;
 }
 
@@ -68,6 +68,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 .content .main-box img {
@@ -114,6 +115,7 @@ body {
   
     margin: 10px auto;
     background-color: #282424;
+    background-color: #fff;
   
     border-radius: 10px;
   
