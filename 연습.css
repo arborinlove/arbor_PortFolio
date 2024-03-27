@@ -73,7 +73,7 @@ body {
 
 .content .main-box img {
     width: 300px;
-    /* animation: rotate 6s linear infinite; transform-origin: 50% 50%; */
+    animation: rotate 6s linear infinite; transform-origin: 50% 50%;
 }
 
 @keyframes rotate{
