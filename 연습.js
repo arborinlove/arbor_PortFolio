@@ -1,3 +1,14 @@
+$('a[href="#"]').on('click', (evt) => {
+  evt.preventDefault();
+});
+
+$('.btn').on('click', () => {
+  scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  });
+});
+
 // 마우스 휠 이벤트
 
 $('.event').each(function () {

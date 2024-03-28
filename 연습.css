@@ -5,11 +5,12 @@ body {
   position: relative;
   height: 100vh;
   /* background-image: linear-gradient(-125deg, #058eff, #ff3232, #14f732); */
+  background-color: #040D12;
 }
 
 body {
   /* background-color: #FDFDFD; */
-  background-color: #000;
+  background-color: #070F2B;
   font-family: 'pretendard', sans-serif;
   font-size: 14px;
   color: #fff;
@@ -60,6 +61,7 @@ body {
 
 .content {
     background-color: #000;
+    background-color: #040D12;
     /* background-color: #b5d5ff; */
     width: 100%;
 }
@@ -323,6 +325,6 @@ footer .btn {
 }
 
 footer .btn:hover {
-    transform: translate(0, -30px);
+    /* transform: translate(0, -10px); */
     color: rgba(0, 0, 0, 0.5);
 }
